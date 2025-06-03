@@ -12,7 +12,7 @@ Game Boy Light<br>
 ![GBL2](https://github.com/user-attachments/assets/5bc516e8-40e8-4327-9cdf-7f8a51d76c1f)
 
 Game Boy DMG<br>
-In progress - currently no ETA
+*In progress, but currently no estimate as to when a reasonable working version might be ready.*
 
 ## Game Boy Color
 ![GBC](https://github.com/user-attachments/assets/880701cc-ed7e-4917-a938-50da715529c5)
