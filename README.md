@@ -3,8 +3,13 @@ A collection of completed and in progress 720x720 overlays for the RG CubeXX and
 I plan to upload overlays as they're completed or as I lose motivation to work on them. Anything that falls into the latter category will be marked as a work in progress (WIP) in the descriptions below. I won't upload anything I wouldn't use myself, but that last 10% is usually the most tedious part and this is something I do for fun. I normally wouldn't upload anything that wasn't completed, but from what I've seen there aren't yet many options for 720x720 overlays (the ones I have seen are high quality; there just aren't many of them), especially non-integer scale options, and I don't have any particular timelines for revisiting these.
 
 ## Game Boy - WIP
-![GBP](https://github.com/user-attachments/assets/670e673a-7cee-4b24-9db0-221c0e469578)
-![GBL](https://github.com/user-attachments/assets/ab77e43a-4044-400e-ab29-78fcb23c89d5)
+Game Boy Pocket<br>
+![GBP1](https://github.com/user-attachments/assets/5600b628-a2b5-45bd-8354-049783d89fc3)
+![GBP2](https://github.com/user-attachments/assets/a627c9db-e61f-494c-a29a-7e23b9de1f76)
+
+Game Boy Light<br>
+![GBL1](https://github.com/user-attachments/assets/a6b91b73-38d3-4f1a-91b3-3eea13d21074)
+![GBL2](https://github.com/user-attachments/assets/5bc516e8-40e8-4327-9cdf-7f8a51d76c1f)
 
 ## Game Boy Color
 ![GBC](https://github.com/user-attachments/assets/880701cc-ed7e-4917-a938-50da715529c5)
