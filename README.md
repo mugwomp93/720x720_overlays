@@ -1,6 +1,6 @@
 A collection of work-in-progress 720x720 overlays for the RG CubeXX and other devices. Tested on muOS Pixie.
 
-I normally wouldn't upload anything that wasn't completed, but I haven't seen many options for 720x720 overlays, especially non-integer scale options, and I likely won't be completing these any time soon. This isn't a commentary on other people's work, as the overlays I have seen are high quality (in most cases higher quality than mine); there just aren't many of them.
+I normally wouldn't upload anything that wasn't completed, but I haven't seen many options for 720x720 overlays, especially non-integer scale options, and I likely won't be completing these any time soon. This isn't a commentary on other people's work as the overlays I have seen are high quality (in most cases higher quality than mine); there just aren't many of them.
 
 I don't plan to upload anything that I wouldn't use myself, but be aware that there are a number of issues that still need to be resolved. I'll label final versions as such if and when I upload them.
 
