@@ -1,11 +1,11 @@
 A collection of work-in-progress 720x720 overlays for the RG CubeXX and other devices. Tested on muOS Pixie.
 
-I normally wouldn't upload anything that wasn't completed, but I haven't seen many options for 720x720 overlays, especially non-integer scale options, and I likely won't be completing these any time soon. This isn't a commentary on other people's work as the overlays I have seen are high quality (in most cases higher quality than mine); there just aren't many of them.
+I normally wouldn't upload anything that wasn't finished, but I haven't seen many options for 720x720 overlays, especially non-integer scale overlays, and I likely won't be completing these any time soon. This isn't a commentary on other people's work as the overlays I have seen are high quality (in most cases higher quality than mine); there just aren't many of them.
 
 I don't plan to upload anything that I wouldn't use myself, but be aware that there are a number of issues that still need to be resolved. I'll label final versions as such if and when I upload them.
 
 ## Game Boy
-These overlays work in tandem with a shader preset to create custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder to keep everything tidy and because I modified the gb-pass4 palette files, but credit for these shaders should go to their original creators. Note that I'm also working on a DMG version, but it's more complex (it uses a custom palette) and the manual tuning isn't quite as far along yet.<br><br> 
+These overlays work in tandem with a shader preset to create custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder to keep everything tidy and because I modified the gb-pass4 palette files, but credit for these shaders should go to their original creators. Note that I'm also working on a DMG version, but it's more complex (it uses a custom palette file) and the manual tuning isn't quite as far along yet.<br><br> 
 ![GB](https://github.com/user-attachments/assets/798751c6-59b0-4263-8d64-3cc3910cdcc3)
 
 Notes:
