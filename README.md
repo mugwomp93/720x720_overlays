@@ -33,7 +33,7 @@ Another 1playerinsertcoin grid. This one is adapted from their base overlay, so 
 ![GG](https://github.com/user-attachments/assets/092f76a3-0859-4c02-8eac-46aeae164139)
 
 ## 1playerinsertcoin Assorted Overlays
-As you may have noticed from the descriptions above, 1playerinsertcoin has been very generous with their time in creating overlays for a device they don't even own. Given how long it takes to create high quality overlays, limited free time, etc, I thought it would be unfair to keep these to myself until I was done creating my versions. These overlays don't have any border decorations, shadows, etc, and, unlike my versions, should all be centered. Please credit 1playerinsertcoin if you use these to create and share your own overlays.
+As you may have noticed from the descriptions above, 1playerinsertcoin has been very generous with their time in creating overlays for a device they don't even own. Given how long it takes to create high quality overlays, limited free time, etc, I thought it would be unfair to keep these to myself until I was done creating my versions. These overlays don't have any border decorations, shadows, etc, and, unlike my versions, should all be centered. Please credit 1playerinsertcoin if you use these to create your own versions.
 
 Overlays include:
 - GBA 3x integer
