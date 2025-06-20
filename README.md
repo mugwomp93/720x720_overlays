@@ -32,7 +32,7 @@ Notes:
 - A version of this overlay without border graphics and shadows is available in the [1playerinsertcoin assorted overlays bundle](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4x integer version is also available.
 
 ## Game Gear
-Another 1playerinsertcoin grid. This one is adapted from their base overlay, so it's not Game Gear specific but it includes some really nice enhanced LCD subpixel effects.
+Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game Gear screen (it's also not 4:3, so we've already deviated from reality) but it includes some really nice enhanced LCD subpixel effects.
 
 ![GG](https://github.com/user-attachments/assets/092f76a3-0859-4c02-8eac-46aeae164139)
 
