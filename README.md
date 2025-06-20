@@ -14,7 +14,7 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 These overlays work with a shader preset to create custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.
 
 I'm also working on a DMG version, but it's more complex (it uses a custom palette file) and I'm not as far along in tuning it.<br><br> 
-![GB](https://github.com/user-attachments/assets/798751c6-59b0-4263-8d64-3cc3910cdcc3)
+![GB](https://github.com/user-attachments/assets/22ffda71-f8d9-45f2-9f36-ed6cd0f9daa4)
 
 Notes:
 - The colors aren't intended to be 100% true to the original devices. I started off with that intention but, at least for the Pocket, the resulting look wasn't something I actually wanted to use while playing. Consider these overlays "inspired by" instead of accurate representations.  
