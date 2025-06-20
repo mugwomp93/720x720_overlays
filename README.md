@@ -13,11 +13,12 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 ## Game Boy
 These overlays work with a shader preset to create custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.
 
-I'm also working on a DMG version, but it's more complex (it uses a custom palette file) and I'm not as far along in tuning it.<br><br> 
+I'm also working on a DMG version, but it's more complex and I'm not as far along in tuning it.<br><br> 
 ![GB](https://github.com/user-attachments/assets/22ffda71-f8d9-45f2-9f36-ed6cd0f9daa4)
+*Note: The appearance of the gridlines in these images is heavily influenced by scaling, display size, and resolution. In my experience, they most closely resemble their appearance on-device when viewed at 100% scaling on a 14" QHD screen.*
 
 Notes:
-- The colors aren't intended to be 100% true to the original devices. I started off with that intention but, at least for the Pocket, the resulting look wasn't something I actually wanted to use while playing. Consider these overlays "inspired by" instead of accurate representations.  
+- The colors aren't intended to be 100% true to the original devices. Consider them "inspired by" instead of accurate representations.  
 - Pixellate and pixel_aa produce slightly better interpolation results than sharp-shimmerless, but they're more resource intensive and can produce lag and audio issues in more demanding games on the CubeXX (e.g., Donkey Kong Land) so I've stuck with sharp-shimmerless.
 - You may notice that some of the pixel shadows are bisected by the grid lines. I don't really notice this on device (it's much more apparent in the screenshots), but if it bothers you, you can adjust Shadow Offset Vert in the shader parameters to +4.50. This will position the shadows at a full 1 game pixel offset, 45 degrees down and left of their respective pixels.
 - I suggest leaving Shadow Offset Horiz at 4.50 as the preset value adds a shadow on the right edge of the screen that the overlays are design to complement. They may look weird if you reduce the horizontal shadow or change the direction. Similarly, the edge shadows on the overlay may look strange if used without the shader preset.
