@@ -17,7 +17,7 @@ I'm also working on a DMG version, but it's more complex (it uses a custom palet
 ![GB](https://github.com/user-attachments/assets/798751c6-59b0-4263-8d64-3cc3910cdcc3)
 
 Notes:
-- The colors aren't intended to be 100% true to the original devices. I started off with the intention of making them accurate but I didn't like the resulting look. Consider them "inspired by" instead of accurate representations.  
+- The colors aren't intended to be 100% true to the original devices. I started off with that intention but, at least for the Pocket, the resulting look wasn't something I actually wanted to use while playing. Consider these overlays "inspired by" instead of accurate representations.  
 - Pixellate and pixel_aa produce slightly better interpolation results than sharp-shimmerless, but they're more resource intensive and can produce lag and audio issues in more demanding games on the CubeXX (e.g., Donkey Kong Land) so I've stuck with sharp-shimmerless.
 - You may notice that some of the pixel shadows are bisected by the grid lines. I don't really notice this on device (it's much more apparent in the screenshots), but if it bothers you, you can adjust Shadow Offset Vert in the shader parameters to +4.50. This will position the shadows at a full 1 game pixel offset, 45 degrees down and left of their respective pixels.
 - I suggest leaving Shadow Offset Horiz at 4.50 as the preset value adds a shadow on the right edge of the screen that the overlays are design to complement. They may look weird if you reduce the horizontal shadow or change the direction. Similarly, the edge shadows on the overlay may look strange if used without the shader preset.
