@@ -15,7 +15,7 @@ These overlays work with a shader preset to create custom palettes and a subtle 
 
 I'm also working on a DMG version, but it's more complex and I'm not as far along in tuning it.<br><br> 
 ![GB](![GB](https://github.com/user-attachments/assets/7cf4faa7-3e26-461c-8e1a-da672c1103dc)
-*Note: The appearance of the gridlines in these images is heavily influenced by scaling, display size, and resolution. In my experience, they most closely resemble their appearance on-device when viewed at 100% scaling on a 14" QHD screen.*
+*Note: The apparent evenness of the gridlines in these images is heavily affected by scaling, display size, and resolution.*
 
 Notes:
 - The colors aren't intended to be 100% true to the original devices. Consider them "inspired by" instead of accurate representations.  
