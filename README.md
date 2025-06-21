@@ -7,8 +7,8 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 # Contents
 1. [Game Boy](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy)
 2. [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-color)
-3. [Game Gear](https://github.com/mugwomp93/720x720_overlays/main#game-gear)
-4. [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/main#1playerinsertcoin-assorted-overlays)
+3. [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main#game-gear)
+4. [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#1playerinsertcoin-assorted-overlays)
 
 # [Game Boy](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays)
 These overlays work with a shader preset to create custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.
