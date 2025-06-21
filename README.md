@@ -5,9 +5,9 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 *Note: I don't plan to upload anything that I wouldn't use myself, but be aware that there are a number of issues that still need to be resolved (mostly interactions between shadows and gridlines that need to be adjusted manually, but others as well). I'll label final versions as such if and when I upload them.*
 
 # Contents
-1. [Game Boy](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#game-boy)
-2. [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#game-boy-color)
-3. [Game Gear](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#game-gear)
+1. [Game Boy](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy)
+2. [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-color)
+3. [Game Gear](https://github.com/mugwomp93/720x720_overlays/main#game-gear)
 4. [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays)
 
 # [Game Boy](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays)
