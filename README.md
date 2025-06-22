@@ -37,7 +37,8 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 ![GG](https://github.com/user-attachments/assets/092f76a3-0859-4c02-8eac-46aeae164139)
 
 Notes:
-- A version of this overlay at 100% opacity and without border graphics and shadows is available in the [1playerinsertcoin assorted overlays bundle](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4:3 version (no more skinny Sonic) is also available.
+- This version incorporates 1playerinsertcoin's grid at 90% opacity.
+- The base version of this overlay at 100% opacity and without border graphics and shadows is available in the [1playerinsertcoin assorted overlays bundle](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4:3 version (no more skinny Sonic) is also available.
 
 # [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/1playerinsertcoin%20Assorted%20Overlays)
 As you may have gathered, 1playerinsertcoin has been very generous with their time in creating overlays for a device they don't even own. Given how long it takes to create high quality overlays, limited free time, etc, I thought it would be unfair to keep these to myself until I was done creating my versions. These overlays don't have any border decorations, shadows, etc, and, with one exception, are all centered. Please credit 1playerinsertcoin if you use these to create your own versions.
