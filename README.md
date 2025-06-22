@@ -2,7 +2,7 @@
 
 I normally wouldn't upload anything that wasn't finished; however, I likely won't be completing these any time soon so I thought I would make them available in case anyone wants to use them. I'll update with additional and/or revised overlays as time and interest permit.
 
-*Note: I don't plan to upload anything that I wouldn't use myself, but be aware that there are a number of issues that still need to be resolved (mostly interactions between shadows and gridlines that need to be adjusted manually, but others as well). I'll label final versions as such if and when I upload them.*
+*Note 1: I don't plan to upload anything that I wouldn't use myself, but be aware that there are a number of issues that still need to be resolved (mostly interactions between shadows and gridlines that need to be adjusted manually, but others as well). I'll label final versions as such if and when I upload them.*
 
 # Contents
 1. [Game Boy](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy)
@@ -34,10 +34,10 @@ Notes:
 # [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays)
 Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game Gear screen (it's also not 4:3, so we've already deviated from reality) but it includes some really nice enhanced LCD subpixel effects. Same issue with the edge shadow as for GBC.
 
-![GG](https://github.com/user-attachments/assets/092f76a3-0859-4c02-8eac-46aeae164139)
+![GG](https://github.com/user-attachments/assets/76729a9a-f310-45bc-8c65-f298f087e7b9)
 
 Notes:
-- This version incorporates 1playerinsertcoin's grid at 90% opacity.
+- This version incorporates 1playerinsertcoin's grid at 90% opacity. The alt version includes the grid at 80% opacity with some extra mucking around by me to desaturate the colors a bit.
 - The base version of this overlay at 100% opacity and without border graphics and shadows is available in the [1playerinsertcoin assorted overlays bundle](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4:3 version (no more skinny Sonic) is also available.
 
 # [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/1playerinsertcoin%20Assorted%20Overlays)
