@@ -23,7 +23,47 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 <details>
   <summary>Click for installation and settings</summary>
 
-  ### Scaling Settings:
+  ### Installation:
+
+  Download GB.zip and copy the shaders and overlays folders to your Retroarch folder.
+
+  ### Settings:
+
+  #### 1. Core Options
+
+    Quick Menu > Core Options:
+
+        GB Colorization > Off
+
+        Interframe Blending	> Simple (NOTE: If you don't like the image ghosting, turn it OFF, but you may see flickering elements in games.)
+
+        Manage Core Options > Save Content Directory Options
+  
+  #### 2. Apply the Overlay:
+  
+    Quick Menu > On-Screen Overlay
+
+         Display Overlay > ON
+
+         Overlay Preset...
+           > Navigate to Retroarch > overlays > mugwomp93 > 720x720 and select your preferred overlay (GB Pocket, GB Light - Teal, GB Light - Blue)
+
+         Overlay Opacity > 1.00
+
+  #### 3. Apply the Shader Preset:
+  
+    Quick Menu > Shaders
+
+        Video Shaders ON
+
+        Load Preset...
+          > Navigate to Retroarch > shaders > mugwomp93 and select the preset that corresponds to the overlay you selected (GB Pocket, GB Light - Teal, GB Light - Blue)
+
+        Apply Changes
+
+        Save Preset > Save Content Directory Preset
+
+  #### 4. Scaling Settings:
     
     Main Menu > Settings > Video > Scaling
     
@@ -45,11 +85,15 @@ I'm also working on a DMG version but it's not as far along.<br><br>
     
         Viewport Anchor Bias X > 0.50
     
-        Viewport Anchor Bias Y > 0.00
+        Viewport Anchor Bias Y > 1.00 (if the image doesn't display properly, try 0.00 instead)
     
         Bilinear Filtering > OFF
     
         Crop Overscan > OFF
+
+  #### 5. Save an override
+
+    Quick Menu > Overrides > Save Content Directory Overrides  
 </details>
 
 ### Notes:
@@ -59,7 +103,7 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 - I suggest leaving Shadow Offset Horiz at 4.50 as the preset value adds a shadow on the right edge of the screen that the overlays are design to complement. They may look weird if you reduce the horizontal shadow or change the direction. Similarly, the edge shadows on the overlay may look strange if used without the shader preset.
 
 # [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays)
-1playerinsertcoin was kind enough to create a number of iterations of this overlay grid. I think the final version looks great, which is especially impressive considering they don't have a 720x720 device. I'm not 100% happy with the edge shadow so I may revisit it at some point, but otherwise this is as close to finished as any of these overlays.
+1playerinsertcoin was kind enough to create a number of iterations of this overlay grid. I think the final version looks fantastic, which is especially impressive considering they don't have a 720x720 device. I'm not 100% happy with the edge shadow so I may revisit it at some point, but otherwise this is as close to finished as any of these overlays.
 
 ![GBC](https://github.com/user-attachments/assets/880701cc-ed7e-4917-a938-50da715529c5)
 
@@ -67,7 +111,63 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 <details>
   <summary>Click for installation and settings</summary>
 
-  ### Scaling Settings:
+   ### Installation:
+
+  Download GBC_720x720.png and GBC_720x720.png and save them to your Retroarch > overlays folder 
+    - You can make subfolders if desired; I save mine to Retroarch > overlays > mugwomp93 > 720x720 to help keep things organized
+
+  ### Settings:
+
+  #### 1. Core Options
+
+    Quick Menu > Core Options:
+
+        GB Colorization > GBC
+
+        Color Correction > GBC Only
+
+        Color Correction Mode > Accurate
+
+        Color Correction - Frontlight Position > Above Screen (lighter, more realistic GBC colors) or Central (darker, more vibrant colors)
+
+        Interframe Blending	> Simple (NOTE: If you don't like the image ghosting, turn it OFF, but you may see flickering elements in games.)
+
+        Manage Core Options > Save Content Directory Options
+  
+  #### 2. Apply the Overlay:
+  
+    Quick Menu > On-Screen Overlay
+
+         Display Overlay > ON
+
+         Overlay Preset...
+           > Navigate to where you saved the .png and .cfg files and select GBC_720x720.cfg
+
+         Overlay Opacity > 1.00
+
+  #### 3. Apply Shaders:
+  
+  *Note: If you're using muOS, sharp-shimmerless is applied by default. There's no need to change the shader settings.*
+    
+    Quick Menu > Shaders
+
+        Video Shaders ON
+
+        Shader Passes > 1
+        
+            Shader #0: shimmerless > shaders > sharp-shimmerless.glsl
+
+            Shader #0 Filter: Linear
+
+            Shader #0 Scale: Default
+
+        Apply Changes
+
+        Save Preset > Save Content Directory Preset
+
+  (If sharp-shimmerless isn't available on your device, you can use interpolation > sharp-bilinear instead. Or you can download sharp-shimmerless from [here](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader).)
+  
+  #### 4. Scaling Settings:
     
     Main Menu > Settings > Video > Scaling
     
@@ -89,11 +189,15 @@ I'm also working on a DMG version but it's not as far along.<br><br>
     
         Viewport Anchor Bias X > 0.50
     
-        Viewport Anchor Bias Y > 0.00
+        Viewport Anchor Bias Y > 1.00 (if the image doesn't display properly, try 0.00 instead)
     
         Bilinear Filtering > OFF
     
         Crop Overscan > OFF
+
+  #### 5. Save an override
+
+    Quick Menu > Overrides > Save Content Directory Overrides
 </details>
 
 ### Notes:
@@ -108,7 +212,47 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 <details>
   <summary>Click for installation and settings</summary>
 
-  ### Scaling Settings:
+     ### Installation:
+
+  Download GG_720x720.png and GG_720x720.png (and/or GG_720x720_alt.png and GG_720x720_alt.cfg) and save them to your Retroarch > overlays folder 
+    - You can make subfolders if desired; I save mine to Retroarch > overlays > mugwomp93 > 720x720 to help keep things organized
+
+  ### Settings:
+
+  #### 1. Apply the Overlay:
+  
+    Quick Menu > On-Screen Overlay
+
+         Display Overlay > ON
+
+         Overlay Preset...
+           > Navigate to where you saved the .png and .cfg files and select GG_720x720.cfg or GG_720x720_alt.cfg
+
+         Overlay Opacity > 1.00
+
+  #### 2. Apply Shaders:
+  
+  *Note: If you're using muOS, sharp-shimmerless is applied by default. There's no need to change the shader settings.*
+    
+    Quick Menu > Shaders
+
+        Video Shaders ON
+
+        Shader Passes > 1
+        
+            Shader #0: shimmerless > shaders > sharp-shimmerless.glsl
+
+            Shader #0 Filter: Linear
+
+            Shader #0 Scale: Default
+
+        Apply Changes
+
+        Save Preset > Save Content Directory Preset
+
+  (If sharp-shimmerless isn't available on your device, you can use interpolation > sharp-bilinear instead. Or you can download sharp-shimmerless from [here](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader).)
+  
+  #### 3. Scaling Settings:
     
     Main Menu > Settings > Video > Scaling
     
@@ -130,11 +274,15 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
     
         Viewport Anchor Bias X > 0.50
     
-        Viewport Anchor Bias Y > 0.00
+        Viewport Anchor Bias Y > 1.00 (if the image doesn't display properly, try 0.00 instead)
     
         Bilinear Filtering > OFF
     
         Crop Overscan > OFF
+
+  #### 4. Save an Override
+
+    Quick Menu > Overrides > Save Content Directory Overrides
 </details>
 
 ### Notes:
