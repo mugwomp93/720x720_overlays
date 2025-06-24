@@ -4,7 +4,7 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 
 *Note 1: I don't plan to upload anything that I wouldn't use myself, but be aware that there are a number of issues that still need to be resolved (mostly interactions between shadows and gridlines that need to be adjusted manually, but others as well). I'll label final versions as such if and when I upload them.*
 
-*Note 2: As you'll see, with the exception of the GB overlays, the vast majority of the grids were created by 1playerinsertcoin. Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids (and there are many!) goes to 1playerinsertcoin, and any issues are my fault.*
+*Note 2: With the exception of the GB overlays, the overlay grids were created by 1playerinsertcoin. Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids (and there are many!) goes to 1playerinsertcoin, and any issues are my fault.*
 
 # Contents
 1. [Game Boy](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy)
