@@ -113,8 +113,8 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 
   ### Installation:
 
-  Download GBC_720x720.png and GBC_720x720.png and save them to your Retroarch > overlays folder 
-    - You can make subfolders if desired; I save mine to Retroarch > overlays > mugwomp93 > 720x720 to help keep things organized
+  Download GBC_720x720.png and GBC_720x720.png and save them to your Retroarch > overlays folder<br>
+  *Note: You can make subfolders if desired; I save mine to Retroarch > overlays > mugwomp93 > 720x720 to help keep things organized*
 
   ### Settings:
 
