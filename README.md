@@ -17,7 +17,40 @@ I'm also working on a DMG version, but it's more complex and I'm not as far alon
 ![GB](https://github.com/user-attachments/assets/7cf4faa7-3e26-461c-8e1a-da672c1103dc)
 *Note: The apparent evenness of the gridlines in these images is heavily affected by size, resolution, and % zoom of the viewing display.*
 
-Notes:
+## Configuration
+<details>
+  <summary>Click for installation and settings</summary>
+
+  ### Scaling Settings:
+    
+    Main Menu > Settings > Video > Scaling
+    
+        Integer Scale > OFF
+    
+        Integer Scale Axis > (shouldn't matter)
+    
+        Integer Scale Scaling > (shouldn't matter)
+    
+        Aspect Ratio > Custom
+    
+            Custom Aspect Ratio (X Position) > 0
+    
+            Custom Aspect Ratio (Y Position) > 25
+    
+            Custom Aspect Ratio (Width) > 720
+    
+            Custom Aspect Ratio (Height) > 648
+    
+        Viewport Anchor Bias X > 0.50
+    
+        Viewport Anchor Bias Y > 0.00
+    
+        Bilinear Filtering > OFF
+    
+        Crop Overscan > OFF
+</details>
+
+### Notes:
 - The colors aren't intended to be 100% true to the original devices. Consider them "inspired by" instead of accurate representations.  
 - Pixellate and pixel_aa produce slightly better interpolation results than sharp-shimmerless, but they're more resource intensive and can produce lag and audio issues in more demanding games on the CubeXX (e.g., Donkey Kong Land) so I've stuck with sharp-shimmerless.
 - You may notice that some of the pixel shadows are bisected by the grid lines. I don't really notice this on device (it's much more apparent in the screenshots), but if it bothers you, you can adjust Shadow Offset Vert in the shader parameters to +4.50. This will position the shadows at a full 1 game pixel offset, 45 degrees down and left of their respective pixels.
@@ -28,7 +61,40 @@ Notes:
 
 ![GBC](https://github.com/user-attachments/assets/880701cc-ed7e-4917-a938-50da715529c5)
 
-Notes:
+## Configuration
+<details>
+  <summary>Click for installation and settings</summary>
+
+  ### Scaling Settings:
+    
+    Main Menu > Settings > Video > Scaling
+    
+        Integer Scale > OFF
+    
+        Integer Scale Axis > (shouldn't matter)
+    
+        Integer Scale Scaling > (shouldn't matter)
+    
+        Aspect Ratio > Custom
+    
+            Custom Aspect Ratio (X Position) > 0
+    
+            Custom Aspect Ratio (Y Position) > 25
+    
+            Custom Aspect Ratio (Width) > 720
+    
+            Custom Aspect Ratio (Height) > 648
+    
+        Viewport Anchor Bias X > 0.50
+    
+        Viewport Anchor Bias Y > 0.00
+    
+        Bilinear Filtering > OFF
+    
+        Crop Overscan > OFF
+</details>
+
+### Notes:
 - A version of this overlay without border graphics and shadows is available in the [1playerinsertcoin assorted overlays bundle](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4x integer version is also available.
 
 # [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays)
@@ -36,7 +102,40 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 
 ![GG](https://github.com/user-attachments/assets/76729a9a-f310-45bc-8c65-f298f087e7b9)
 
-Notes:
+## Configuration
+<details>
+  <summary>Click for installation and settings</summary>
+
+  ### Scaling Settings:
+    
+    Main Menu > Settings > Video > Scaling
+    
+        Integer Scale > OFF
+    
+        Integer Scale Axis > (shouldn't matter)
+    
+        Integer Scale Scaling > (shouldn't matter)
+    
+        Aspect Ratio > Custom
+    
+            Custom Aspect Ratio (X Position) > 0
+    
+            Custom Aspect Ratio (Y Position) > 25
+    
+            Custom Aspect Ratio (Width) > 720
+    
+            Custom Aspect Ratio (Height) > 648
+    
+        Viewport Anchor Bias X > 0.50
+    
+        Viewport Anchor Bias Y > 0.00
+    
+        Bilinear Filtering > OFF
+    
+        Crop Overscan > OFF
+</details>
+
+### Notes:
 - This version incorporates 1playerinsertcoin's grid at 90% opacity. The alt version includes the grid at 80% opacity with some extra mucking around by me to desaturate the colors a bit.
 - The base version of this overlay at 100% opacity and without border graphics and shadows is available in the [1playerinsertcoin assorted overlays bundle](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4:3 version (no more skinny Sonic) is also available.
 
@@ -54,3 +153,8 @@ Overlays include:
 - NGPC non-integer (720x684)
 - PICO-8 non-integer (720x720)
 
+## Configuration
+<details>
+  <summary>Click for installation and settings</summary>
+  
+</details>
