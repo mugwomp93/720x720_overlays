@@ -25,7 +25,7 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 
   ### Installation:
 
-  Download GB.zip and copy the shaders and overlays folders to your Retroarch folder.
+  - Download GB.zip and copy the contents of the shaders and overlays folders to your retroarch > shaders and retroarch > overlays folders, respectively.
 
   ### Settings:
 
@@ -46,7 +46,7 @@ I'm also working on a DMG version but it's not as far along.<br><br>
          Display Overlay > ON
 
          Overlay Preset...
-           > Navigate to Retroarch > overlays > mugwomp93 > 720x720 and select your preferred overlay (GB Pocket, GB Light - Teal, GB Light - Blue)
+           > Navigate to retroarch > overlays > mugwomp93 > 720x720 and select your preferred overlay (GB Pocket, GB Light - Teal, GB Light - Blue)
 
          Overlay Opacity > 1.00
 
@@ -57,7 +57,7 @@ I'm also working on a DMG version but it's not as far along.<br><br>
         Video Shaders ON
 
         Load Preset...
-          > Navigate to Retroarch > shaders > mugwomp93 and select the preset that corresponds to the overlay you selected (GB Pocket, GB Light - Teal, GB Light - Blue)
+          > Navigate to retroarch > shaders > mugwomp93 and select the preset that corresponds to the overlay you selected (GB Pocket, GB Light - Teal, GB Light - Blue)
 
         Apply Changes
 
@@ -113,8 +113,8 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 
   ### Installation:
 
-  Download both GBC_720x720.png and GBC_720x720.cfg and save them to your Retroarch > overlays folder<br>
-  *Note: You can make subfolders if desired; I save mine to Retroarch > overlays > mugwomp93 > 720x720 to help keep things organized*
+  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays) both GBC_720x720.png and GBC_720x720.cfg and save them to your retroarch > overlays folder<br>
+  - *Note: You can make subfolders if desired; I save mine to retroarch > overlays > mugwomp93 > 720x720 to help keep things organized*
 
   ### Settings:
 
@@ -214,8 +214,8 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 
   ### Installation:
 
-  Download GG_720x720.png and GG_720x720.cfg (and/or GG_720x720_alt.png and GG_720x720_alt.cfg) and save them to your Retroarch > overlays folder<br>
-  *Note: You can make subfolders if desired; I save mine to Retroarch > overlays > mugwomp93 > 720x720 to help keep things organized*
+  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays) GG_720x720.png and GG_720x720.cfg (and/or GG_720x720_alt.png and GG_720x720_alt.cfg) and save them to your retroarch > overlays folder<br>
+  - *Note: You can make subfolders if desired; I save mine to retroarch > overlays > mugwomp93 > 720x720 to help keep things organized*
 
   ### Settings:
 
@@ -307,4 +307,120 @@ Overlays include:
 <details>
   <summary>Click for installation and settings</summary>
   
+  ### Installation:
+
+  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/1playerinsertcoin%20Assorted%20Overlays) the .png and .cfg files for the overlay(s) you're interested in and save them to your retroarch > overlays folder.
+  - *Note: You can make subfolders if desired; e.g., retroarch > overlays > mugwomp93 > 720x720 > 1playerinsertcoin*
+
+  ### Settings:
+
+  #### 1. Apply the Overlay:
+  
+    Quick Menu > On-Screen Overlay
+
+         Display Overlay > ON
+
+         Overlay Preset...
+           > Navigate to where you saved the .png and .cfg files and select your chosen overlay
+
+         Overlay Opacity > 1.00
+
+  #### 2. Apply Shaders:
+  
+- *Note 1: If you're using muOS, sharp-shimmerless is applied by default. There's no need to change the shader settings.*
+  
+- *Note 2: If sharp-shimmerless isn't available on your device, you can try using interpolation > sharp-bilinear (or other interpolation shader) instead. Or you can download sharp-shimmerless from [here](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader).*
+    
+      Quick Menu > Shaders
+
+          Video Shaders ON
+
+          Shader Passes > 1
+        
+              Shader #0: shimmerless > shaders > sharp-shimmerless.glsl
+
+              Shader #0 Filter: Linear
+
+              Shader #0 Scale: Default
+
+          Apply Changes
+
+          Save Preset > Save Content Directory Preset
+   
+  #### 3. Scaling Settings:
+    
+  <details><summary>i. Integer scale overlays - except Perfect_GBC-720p(4x offset)</summary>
+    
+      Main Menu > Settings > Video > Scaling
+
+          Integer Scale > ON
+
+          Integer Scale Axis > (shouldn't matter)
+
+          Integer Scale Scaling > Underscale
+
+          Aspect Ratio > Core provided
+
+          Viewport Anchor Bias X > 0.50
+
+          Viewport Anchor Bias Y > 0.50
+
+          Bilinear Filtering > OFF
+
+          Crop Overscan > OFF
+  </details>
+
+  <details><summary>ii. Perfect_GBC-720p(4x offset)</summary>
+
+      Main Menu > Settings > Video > Scaling
+
+          Integer Scale > ON
+
+          Integer Scale Axis > (shouldn't matter)
+
+          Integer Scale Scaling > Underscale
+
+          Aspect Ratio > Custom
+
+              Custom Aspect Ratio (X Position) > 0
+
+              Custom Aspect Ratio (Y Position) > 41
+
+              Custom Aspect Ratio (Width) > 640 (4x)
+
+              Custom Aspect Ratio (Height) > 576 (4x)
+
+          Viewport Anchor Bias X > 0.50
+
+          Viewport Anchor Bias Y > 0.00
+
+          Bilinear Filtering > OFF
+
+          Crop Overscan > OFF
+  </details>	
+
+  <details><summary>iii. Non-integer scale overlays</summary>
+
+      Main Menu > Settings > Video > Scaling
+
+          Integer Scale > OFF
+
+          Integer Scale Axis > (shouldn't matter)
+
+          Integer Scale Scaling > (shouldn't matter)
+
+          Aspect Ratio > Core Provided or 4:3 for Perfect_GG-720p(4x3)
+
+          Viewport Anchor Bias X > 0.50
+
+          Viewport Anchor Bias Y > 0.50
+
+          Bilinear Filtering > OFF
+
+          Crop Overscan > OFF
+  </details>
+
+  #### 4. Save an Override
+
+      Quick Menu > Overrides > Save Content Directory Overrides
 </details>
