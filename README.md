@@ -111,7 +111,7 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 <details>
   <summary>Click for installation and settings</summary>
 
-   ### Installation:
+  ### Installation:
 
   Download GBC_720x720.png and GBC_720x720.png and save them to your Retroarch > overlays folder 
     - You can make subfolders if desired; I save mine to Retroarch > overlays > mugwomp93 > 720x720 to help keep things organized
@@ -147,57 +147,57 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 
   #### 3. Apply Shaders:
   
-  *Note: If you're using muOS, sharp-shimmerless is applied by default. There's no need to change the shader settings.*
-    
-    Quick Menu > Shaders
-
-        Video Shaders ON
-
-        Shader Passes > 1
-        
-            Shader #0: shimmerless > shaders > sharp-shimmerless.glsl
-
-            Shader #0 Filter: Linear
-
-            Shader #0 Scale: Default
-
-        Apply Changes
-
-        Save Preset > Save Content Directory Preset
-
-  (If sharp-shimmerless isn't available on your device, you can use interpolation > sharp-bilinear instead. Or you can download sharp-shimmerless from [here](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader).)
+- *Note 1: If you're using muOS, sharp-shimmerless is applied by default. There's no need to change the shader settings.*
   
+- *Note 2: If sharp-shimmerless isn't available on your device, you can use interpolation > sharp-bilinear instead. Or you can download sharp-shimmerless from [here](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader).*
+    
+      Quick Menu > Shaders
+
+          Video Shaders ON
+
+          Shader Passes > 1
+        
+              Shader #0: shimmerless > shaders > sharp-shimmerless.glsl
+
+              Shader #0 Filter: Linear
+
+              Shader #0 Scale: Default
+
+          Apply Changes
+
+          Save Preset > Save Content Directory Preset
+ 
   #### 4. Scaling Settings:
     
-    Main Menu > Settings > Video > Scaling
+      Main Menu > Settings > Video > Scaling
     
-        Integer Scale > OFF
+          Integer Scale > OFF
     
-        Integer Scale Axis > (shouldn't matter)
+          Integer Scale Axis > (shouldn't matter)
     
-        Integer Scale Scaling > (shouldn't matter)
+          Integer Scale Scaling > (shouldn't matter)
     
-        Aspect Ratio > Custom
+          Aspect Ratio > Custom
     
-            Custom Aspect Ratio (X Position) > 0
+              Custom Aspect Ratio (X Position) > 0
     
-            Custom Aspect Ratio (Y Position) > 25
+              Custom Aspect Ratio (Y Position) > 25
     
-            Custom Aspect Ratio (Width) > 720
+              Custom Aspect Ratio (Width) > 720
     
-            Custom Aspect Ratio (Height) > 648
+              Custom Aspect Ratio (Height) > 648
     
-        Viewport Anchor Bias X > 0.50
+          Viewport Anchor Bias X > 0.50
     
-        Viewport Anchor Bias Y > 1.00 (if the image doesn't display properly, try 0.00 instead)
+          Viewport Anchor Bias Y > 1.00 (if the image doesn't display properly, try 0.00 instead)
     
-        Bilinear Filtering > OFF
+          Bilinear Filtering > OFF
     
-        Crop Overscan > OFF
+          Crop Overscan > OFF
 
   #### 5. Save an override
 
-    Quick Menu > Overrides > Save Content Directory Overrides
+      Quick Menu > Overrides > Save Content Directory Overrides
 </details>
 
 ### Notes:
@@ -212,7 +212,7 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 <details>
   <summary>Click for installation and settings</summary>
 
-     ### Installation:
+  ### Installation:
 
   Download GG_720x720.png and GG_720x720.png (and/or GG_720x720_alt.png and GG_720x720_alt.cfg) and save them to your Retroarch > overlays folder 
     - You can make subfolders if desired; I save mine to Retroarch > overlays > mugwomp93 > 720x720 to help keep things organized
@@ -232,26 +232,26 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 
   #### 2. Apply Shaders:
   
-  *Note: If you're using muOS, sharp-shimmerless is applied by default. There's no need to change the shader settings.*
-    
-    Quick Menu > Shaders
-
-        Video Shaders ON
-
-        Shader Passes > 1
-        
-            Shader #0: shimmerless > shaders > sharp-shimmerless.glsl
-
-            Shader #0 Filter: Linear
-
-            Shader #0 Scale: Default
-
-        Apply Changes
-
-        Save Preset > Save Content Directory Preset
-
-  (If sharp-shimmerless isn't available on your device, you can use interpolation > sharp-bilinear instead. Or you can download sharp-shimmerless from [here](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader).)
+- *Note 1: If you're using muOS, sharp-shimmerless is applied by default. There's no need to change the shader settings.*
   
+- *Note 2: If sharp-shimmerless isn't available on your device, you can use interpolation > sharp-bilinear instead. Or you can download sharp-shimmerless from [here](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader).*
+    
+      Quick Menu > Shaders
+
+          Video Shaders ON
+
+          Shader Passes > 1
+        
+              Shader #0: shimmerless > shaders > sharp-shimmerless.glsl
+
+              Shader #0 Filter: Linear
+
+              Shader #0 Scale: Default
+
+          Apply Changes
+
+          Save Preset > Save Content Directory Preset
+   
   #### 3. Scaling Settings:
     
     Main Menu > Settings > Video > Scaling
@@ -282,12 +282,12 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 
   #### 4. Save an Override
 
-    Quick Menu > Overrides > Save Content Directory Overrides
+      Quick Menu > Overrides > Save Content Directory Overrides
 </details>
 
 ### Notes:
-- This version incorporates 1playerinsertcoin's grid at 90% opacity. The alt version includes the grid at 80% opacity with some extra mucking around by me to desaturate the colors a bit.
-- The base version of this overlay at 100% opacity and without border graphics and shadows is available in the [1playerinsertcoin assorted overlays bundle](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4:3 version (no more skinny Sonic) is also available.
+- This version uses 1playerinsertcoin's grid at 90% opacity. The alt version includes the grid at 80% opacity with some extra mucking around by me to desaturate the colors a bit.
+- The base version of this overlay at 100% opacity and without border graphics and shadows is available in [1playerinsertcoin assorted overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4:3 version (no more skinny Sonic) is also available.
 
 # [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/1playerinsertcoin%20Assorted%20Overlays)
 As you may have gathered, 1playerinsertcoin has been very generous with their time in creating overlays for a device they don't even own. Given how long it takes to create high quality overlays, limited free time, etc, I thought it would be unfair to keep these to myself until I was done creating my versions. These overlays don't have any border decorations, shadows, etc, and, with one exception, are all centered. Please credit 1playerinsertcoin if you use these to create your own versions.
