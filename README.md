@@ -12,7 +12,7 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 3. [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main#game-gear)
 4. [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#1playerinsertcoin-assorted-overlays)
 
-# [Game Boy](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays)
+# [Game Boy](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
 These overlays work with a shader preset to produce custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.
 
 I'm also working on a DMG version but it's not as far along.<br><br> 
@@ -25,7 +25,7 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 
   ### Installation:
 
-  - Download GB.zip and copy the contents of the shaders and overlays folders to your retroarch > shaders and retroarch > overlays folders, respectively.
+  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB/GB.zip) GB.zip and copy the contents of the shaders and overlays folders to your retroarch > shaders and retroarch > overlays folders, respectively.
 
   ### Settings:
 
@@ -102,7 +102,7 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 - You may notice that some of the pixel shadows are bisected by the grid lines. I don't really notice this on device (it's much more apparent in the screenshots), but if it bothers you, you can adjust Shadow Offset Vert in the shader parameters to +4.50. This will position the shadows at a full 1 game pixel offset, 45 degrees down and left of their respective pixels.
 - I suggest leaving Shadow Offset Horiz at 4.50 as the preset value adds a shadow on the right edge of the screen that the overlays are design to complement. They may look weird if you reduce the horizontal shadow or change the direction. Similarly, the edge shadows on the overlay may look strange if used without the shader preset.
 
-# [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays)
+# [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GBC)
 1playerinsertcoin was kind enough to create a number of iterations of this overlay grid. I think the final version looks fantastic, which is especially impressive considering they don't have a 720x720 device. I'm not 100% happy with the edge shadow so I may revisit it at some point, but otherwise this is as close to finished as any of these overlays.
 
 ![GBC](https://github.com/user-attachments/assets/880701cc-ed7e-4917-a938-50da715529c5)
@@ -113,7 +113,7 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 
   ### Installation:
 
-  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays) both GBC_720x720.png and GBC_720x720.cfg and save them to your retroarch > overlays folder<br>
+  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GBC) both GBC_720x720.png and GBC_720x720.cfg and save them to your retroarch > overlays folder<br>
   - *Note: You can make subfolders if desired; I save mine to retroarch > overlays > mugwomp93 > 720x720 to help keep things organized*
 
   ### Settings:
@@ -203,7 +203,7 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 ### Notes:
 - A version of this overlay without border graphics and shadows is available in [1playerinsertcoin assorted overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4x integer version is also available.
 
-# [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays)
+# [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GG)
 Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game Gear screen (it's also not 4:3, so we've already deviated from reality) but it includes some really nice enhanced LCD subpixel effects. Same issue with the edge shadow as for GBC.
 
 ![GG](https://github.com/user-attachments/assets/76729a9a-f310-45bc-8c65-f298f087e7b9)
@@ -214,7 +214,7 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 
   ### Installation:
 
-  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays) GG_720x720.png and GG_720x720.cfg (and/or GG_720x720_alt.png and GG_720x720_alt.cfg) and save them to your retroarch > overlays folder<br>
+  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GG) GG_720x720.png and GG_720x720.cfg (and/or GG_720x720_alt.png and GG_720x720_alt.cfg) and save them to your retroarch > overlays folder<br>
   - *Note: You can make subfolders if desired; I save mine to retroarch > overlays > mugwomp93 > 720x720 to help keep things organized*
 
   ### Settings:
