@@ -2,7 +2,9 @@
 
 I normally wouldn't upload anything that wasn't finished; however, I likely won't be completing these any time soon so I thought I would make them available in case anyone wants to use them. I'll update with additional and/or revised overlays as time and interest permit.
 
-*Note: I don't plan to upload anything that I wouldn't use myself, but be aware that there are a number of issues that still need to be resolved (mostly interactions between shadows and gridlines that need to be adjusted manually, but others as well). I'll label final versions as such if and when I upload them.*
+*Note 1: I don't plan to upload anything that I wouldn't use myself, but be aware that there are a number of issues that still need to be resolved (mostly interactions between shadows and gridlines that need to be adjusted manually, but others as well). I'll label final versions as such if and when I upload them.*
+
+*Note 2: As you'll see, with the exception of the GB overlays, the vast majority of the grids were created by 1playerinsertcoin. Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids (and there are many!) goes to 1playerinsertcoin, and any issues are my fault.*
 
 # Contents
 1. [Game Boy](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy)
@@ -11,9 +13,9 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 4. [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#1playerinsertcoin-assorted-overlays)
 
 # [Game Boy](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays)
-These overlays work with a shader preset to create custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.
+These overlays work with a shader preset to produce custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.
 
-I'm also working on a DMG version, but it's more complex and I'm not as far along in tuning it.<br><br> 
+I'm also working on a DMG version but it's not as far along.<br><br> 
 ![GB](https://github.com/user-attachments/assets/6116a99e-0f64-4cdf-bb9d-db696041b8ed)
 *Note: The apparent evenness of the gridlines in these images is heavily affected by size, resolution, and % zoom of the viewing display.*
 
