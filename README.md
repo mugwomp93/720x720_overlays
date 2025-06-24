@@ -91,7 +91,7 @@ I'm also working on a DMG version but it's not as far along.<br><br>
     
         Crop Overscan > OFF
 
-  #### 5. Save an override
+  #### 5. Save an Override
 
     Quick Menu > Overrides > Save Content Directory Overrides  
 </details>
@@ -113,7 +113,7 @@ I'm also working on a DMG version but it's not as far along.<br><br>
 
   ### Installation:
 
-  Download GBC_720x720.png and GBC_720x720.png and save them to your Retroarch > overlays folder<br>
+  Download both GBC_720x720.png and GBC_720x720.cfg and save them to your Retroarch > overlays folder<br>
   *Note: You can make subfolders if desired; I save mine to Retroarch > overlays > mugwomp93 > 720x720 to help keep things organized*
 
   ### Settings:
@@ -195,7 +195,7 @@ I'm also working on a DMG version but it's not as far along.<br><br>
     
           Crop Overscan > OFF
 
-  #### 5. Save an override
+  #### 5. Save an Override
 
       Quick Menu > Overrides > Save Content Directory Overrides
 </details>
@@ -214,8 +214,8 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 
   ### Installation:
 
-  Download GG_720x720.png and GG_720x720.png (and/or GG_720x720_alt.png and GG_720x720_alt.cfg) and save them to your Retroarch > overlays folder 
-    - You can make subfolders if desired; I save mine to Retroarch > overlays > mugwomp93 > 720x720 to help keep things organized
+  Download GG_720x720.png and GG_720x720.cfg (and/or GG_720x720_alt.png and GG_720x720_alt.cfg) and save them to your Retroarch > overlays folder<br>
+  *Note: You can make subfolders if desired; I save mine to Retroarch > overlays > mugwomp93 > 720x720 to help keep things organized*
 
   ### Settings:
 
