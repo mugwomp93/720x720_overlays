@@ -13,7 +13,7 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 
 - With the exception of the GB overlays, the overlay grids were created by [1playerinsertcoin](https://www.reddit.com/u/1playerinsertcoin/s/yhapRMwOJz). Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids (and there are many!) goes to 1playerinsertcoin. Any deficiencies are my own.
 
-- **Note regarding sample images:** The apparent evenness of gridlines in the images below depends on a number of factors, including the size, resolution, and % zoom of the viewing display, as well as any scaling applied by Github. Your best bet is to click into the individual images and view at 100% scale (or multiples thereof; 100%, 200%, etc). Colors have been altered to approximate those seen on device but are not completely accurate.
+- **Note regarding sample images:** The apparent (un)evenness of gridlines in the images below depends on a number of factors, including the size, resolution, and % zoom of the viewing display, as well as any scaling applied by Github. Your best bet is to click into the individual images and view at 100% scale (or multiples thereof; 100%, 200%, etc). Colors have been altered to approximate those seen on device but are not completely accurate.
 
 # [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
 ![GBP_composite](https://github.com/user-attachments/assets/2d685d1d-fc20-47b8-bd4e-e7da518a7416)
