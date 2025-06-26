@@ -1,20 +1,25 @@
 **A collection of work-in-progress 720x720 overlays for the RG CubeXX and other devices. Tested on muOS Pixie.**
 
-I normally wouldn't upload anything that wasn't finished; however, I likely won't be completing these any time soon so I thought I would make them available in case anyone wants to use them. I'll update with additional and/or revised overlays as time and interest permit.
-
-*Note 1: I don't plan to upload anything that I wouldn't use myself, but be aware that there are a number of issues that still need to be resolved (mostly interactions between shadows and gridlines that need to be adjusted manually, but others as well). I'll label final versions as such if and when I upload them.*
-
-*Note 2: With the exception of the GB overlays, the overlay grids were created by 1playerinsertcoin. Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids (and there are many!) goes to 1playerinsertcoin. Any deficiencies are my own.*
-
 # Contents
-1. [Game Boy](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy)
+1. [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-pocket--light)
 2. [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-color)
 3. [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main#game-gear)
 4. [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#1playerinsertcoin-assorted-overlays)
 
-# [Game Boy](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
-![GB](https://github.com/user-attachments/assets/a2d01e4a-e3cb-48ea-99df-d628d6142874)
-*Note: The apparent evenness of the gridlines in these images is heavily affected by size, resolution, and % zoom of the viewing display, and by viewing distance when used on device.*<br><br>
+# Notes
+I normally wouldn't upload anything that wasn't finished; however, I likely won't be completing these any time soon so I thought I would make them available in case anyone wants to use them. I'll update with additional and/or revised overlays as time and interest permit.
+
+- I haven't uploaded anything that I wouldn't use myself, but be aware that there are still a number of issues that need to be resolved (I'm likely aware of most; the limiting factor at this point is the intersection of free time with motivation). I'll label final versions as such if and when I upload them.
+
+- With the exception of the GB overlays, the overlay grids were created by [1playerinsertcoin](https://www.reddit.com/u/1playerinsertcoin/s/yhapRMwOJz). Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids (and there are many!) goes to 1playerinsertcoin. Any deficiencies are my own.
+
+- **Note regarding sample images:** The apparent evenness of gridlines in the images below depends on a number of factors, including the size, resolution, and % zoom of the viewing display, as well as any scaling applied by Github. Your best bet is to click into the individual images and view at 100% scale (or multiples thereof; 100%, 200%, etc). Colors have been altered to approximate those seen on device but are not completely accurate.
+
+# [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
+![GBP_composite](https://github.com/user-attachments/assets/2d685d1d-fc20-47b8-bd4e-e7da518a7416)
+![GBL-Teal_composite](https://github.com/user-attachments/assets/3087a755-916e-47e7-ac5e-7ff7f908a2ae)
+![GBL-Blue_composite](https://github.com/user-attachments/assets/559a4d03-7060-46c7-bacf-e425b2cf0f25)
+*Note: I've noticed that the colors of the Game Boy Light palettes in the images above vary significantly depending on the display they're being viewed on. If they appear desaturated, I can assure you that they're not when viewed on device.*<br><br>
 
 These overlays work with a shader preset to produce custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.
 
@@ -104,10 +109,9 @@ I'm also working on a DMG version but it's not as far along.<br>
 - I suggest leaving Shadow Offset Horiz at 4.50 as the preset value adds a shadow on the right edge of the screen that the overlays are design to complement. They may look weird if you reduce the horizontal shadow or change the direction. Similarly, the edge shadows on the overlay may look strange if used without the shader preset.
 
 # [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GBC)
-![GBC](https://github.com/user-attachments/assets/e9ddc317-10c4-4ae7-9b9a-d6cc71480754)
-*Note: The apparent evenness of the gridlines in these images is heavily affected by size, resolution, and % zoom of the viewing display, and by viewing distance when used on device.*<br><br>
+![GBC_composite](https://github.com/user-attachments/assets/d78ac4ad-bfc1-4030-9312-411f0a5a9fe0)
 
-1playerinsertcoin was kind enough to create a number of iterations of this overlay grid. I think the final version looks fantastic, which is especially impressive considering they don't have a 720x720 device. I'm not 100% happy with the edge shadow so I may revisit it at some point, but otherwise this is as close to finished as any of these overlays.
+1playerinsertcoin was kind enough to create a number of iterations of this overlay grid for testing. I think the final version looks fantastic, which is especially impressive considering they don't have a 720x720 device. I'm not 100% happy with the edge shadow so I may revisit it at some point, but otherwise this is as close to finished as any of these overlays.
 
 ## Configuration
 <details>
@@ -207,8 +211,7 @@ I'm also working on a DMG version but it's not as far along.<br>
 
 # [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GG)
 Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game Gear screen (it's also not 4:3, so we've already deviated from reality) but it includes some really nice enhanced LCD subpixel effects. Same issue with the edge shadow as for GBC.
-
-![GG](https://github.com/user-attachments/assets/76729a9a-f310-45bc-8c65-f298f087e7b9)
+![GG_composite](https://github.com/user-attachments/assets/b9452f91-5b75-437b-9dcd-c83e3e7474ee)
 
 ## Configuration
 <details>
