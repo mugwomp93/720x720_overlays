@@ -103,7 +103,8 @@ I'm also working on a DMG version but it's not as far along.<br>
 </details>
 
 ### Notes:
-- The colors aren't intended to be 100% true to the original devices. Consider them "inspired by" instead of accurate representations.  
+- ***These are bright overlays. You'll want to decrease your screen brightness for best results.***
+- The colors aren't intended to be 100% true to the original devices. Consider them "inspired by" instead of accurate representations.
 - Pixellate and pixel_aa produce slightly better interpolation results than sharp-shimmerless, but they're more resource intensive and can produce lag and audio issues in more demanding games on the CubeXX (e.g., Donkey Kong Land) so I've stuck with sharp-shimmerless.
 - You may notice that some of the pixel shadows are bisected by the grid lines. I don't really notice this on device (it's much more apparent in the screenshots), but if it bothers you, you can adjust Shadow Offset Vert in the shader parameters to +4.50. This will position the shadows at a full 1 game pixel offset, 45 degrees down and left of their respective pixels.
 - I suggest leaving Shadow Offset Horiz at 4.50 as the preset value adds a shadow on the right edge of the screen that the overlays are design to complement. They may look weird if you reduce the horizontal shadow or change the direction. Similarly, the edge shadows on the overlay may look strange if used without the shader preset.
@@ -207,6 +208,7 @@ I'm also working on a DMG version but it's not as far along.<br>
 </details>
 
 ### Notes:
+- ***This is a dark overlay. You'll want to increase your screen brightness for best results.***
 - A version of this overlay without border graphics and shadows is available in [1playerinsertcoin assorted overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4x integer version is also available.
 
 # [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GG)
@@ -292,6 +294,7 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 </details>
 
 ### Notes:
+- ***This is a dark overlay. You'll want to increase your screen brightness for best results.***
 - This version uses 1playerinsertcoin's grid at 90% opacity. There's also an alt version that I've mucked around with to desaturate the colors a bit.
 - The base version of this overlay at 100% opacity and without border graphics and shadows is available in [1playerinsertcoin assorted overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4:3 version (no more skinny Sonic) is also available.
 
@@ -299,19 +302,24 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 As you may have gathered, 1playerinsertcoin has been very generous with their time in creating overlays for a device they don't even own. In addition to the overlays listed above, they've also created versions for GBA, NGPC, and PICO-8. Since I don't know when I'll get around to making borders for these, I've decided to upload all of the 720x720 overlays they've created for me so others can enjoy. These overlays don't have any border decorations, shadows, etc, and, with one exception, are all centered. Please credit 1playerinsertcoin if you use these to create your own versions.
 
 Overlays include:
-- GBA 3x integer
+- GBA 3x integer<br><br>
+  ![GBA_1pic](https://github.com/user-attachments/assets/e65db27f-f062-40fa-baa0-b89a838c1b4d)<br><br>
 
-- GBC 4x integer
-- GBC 4x integer offset
 - GBC non-integer (720x648)
- 
-- GG non-integer (720x648; square pixels)
-- GG non-integer 4:3 (720x540; rectangular pixels)
-  
-- NGPC 4x integer
-- NGPC non-integer (720x684)
+- GBC 4x integer
+- GBC 4x integer offset<br><br>
+  ![GBC_1pic](https://github.com/user-attachments/assets/965907d5-ac4c-479f-846c-fda6efc5569e)<br><br>
 
-- PICO-8 non-integer (720x720)
+- GG non-integer (720x648; square pixels)
+- GG non-integer 4:3 (720x540; rectangular pixels)<br><br>
+  ![GG_1pic](https://github.com/user-attachments/assets/5755edfd-6040-40dd-a361-a537e169985c)<br><br>
+
+- NGPC non-integer (720x684)
+- NGPC 4x integer<br><br>
+  ![NGPC_1pic](https://github.com/user-attachments/assets/64633a07-b416-42d2-bbcc-a775d5153ec8)<br><br>
+
+- PICO-8 non-integer (720x720)<br><br>
+  ![PICO_1pic](https://github.com/user-attachments/assets/8cee2a13-5000-4126-a433-58ce4b2f23c3)<br><br>
 
 ## Configuration
 <details>
@@ -434,3 +442,7 @@ Overlays include:
 
       Quick Menu > Overrides > Save Content Directory Overrides
 </details>
+
+### Notes:
+- ***These are dark overlays. You'll want to increase your screen brightness for best results.***
+- The PICO-8 overlay produces a striking effect, but I find it's more comfortable to play at reduced opacity. I usually use ~70-75% depending on the game.
