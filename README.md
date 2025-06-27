@@ -299,26 +299,33 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 - The base version of this overlay at 100% opacity and without border graphics and shadows is available in [1playerinsertcoin assorted overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4:3 version (no more skinny Sonic) is also available.
 
 # [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/1playerinsertcoin%20Assorted%20Overlays)
-As you may have gathered, 1playerinsertcoin has been very generous with their time in creating overlays for a device they don't even own. In addition to the overlays listed above, they've also created versions for GBA, NGPC, and PICO-8. Since I don't know when I'll get around to making borders for these, I've decided to upload all of the 720x720 overlays they've created for me so others can enjoy. These overlays don't have any border decorations, shadows, etc, and, with one exception, are all centered. Please credit 1playerinsertcoin if you use these to create your own versions.
-
-Overlays include:
-- GBA 3x integer<br><br>
+As you may have gathered, 1playerinsertcoin has been very generous with their time in creating overlays for a device they don't even own. In addition to the overlays listed above, they've also created versions for GBA, NGPC, and PICO-8. Since I don't know when I'll get around to making borders for these, I've decided to upload all of the 720x720 overlays they've created for me so others can enjoy. These overlays don't have any border decorations, shadows, etc, and, with one exception, are all centered. Please credit 1playerinsertcoin if you use these to create your own versions.<br>
+### Game Boy Advance
+- 3x integer<br><br>  
   ![GBA_1pic](https://github.com/user-attachments/assets/e65db27f-f062-40fa-baa0-b89a838c1b4d)<br><br>
 
-- GBC non-integer (720x648)
-- GBC 4x integer
-- GBC 4x integer offset<br><br>
+### Game Boy Color
+- Non-integer (720x648)
+- 4x integer
+- 4x integer offset<br><br>
+
   ![GBC_1pic](https://github.com/user-attachments/assets/965907d5-ac4c-479f-846c-fda6efc5569e)<br><br>
 
-- GG non-integer (720x648; square pixels)
-- GG non-integer 4:3 (720x540; rectangular pixels)<br><br>
+### Game Gear
+- Non-integer (720x648; square pixels)
+- Non-integer 4:3 (720x540; rectangular pixels)<br><br>
+
   ![GG_1pic](https://github.com/user-attachments/assets/5755edfd-6040-40dd-a361-a537e169985c)<br><br>
 
-- NGPC non-integer (720x684)
-- NGPC 4x integer<br><br>
+### Neo Geo Pocket Color
+- Non-integer (720x684)
+- 4x integer<br><br>
+
   ![NGPC_1pic](https://github.com/user-attachments/assets/64633a07-b416-42d2-bbcc-a775d5153ec8)<br><br>
 
-- PICO-8 non-integer (720x720)<br><br>
+### PICO-8
+- Non-integer (720x720)<br><br>
+
   ![PICO_1pic](https://github.com/user-attachments/assets/8cee2a13-5000-4126-a433-58ce4b2f23c3)<br><br>
 
 ## Configuration
