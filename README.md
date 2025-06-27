@@ -210,7 +210,7 @@ I'm also working on a DMG version but it's not as far along.<br>
 - A version of this overlay without border graphics and shadows is available in [1playerinsertcoin assorted overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4x integer version is also available.
 
 # [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GG)
-![GG_composite](https://github.com/user-attachments/assets/b9452f91-5b75-437b-9dcd-c83e3e7474ee)
+![GG_composite](https://github.com/user-attachments/assets/186f4cf8-3f65-45d1-872a-43bd6dbef538)
 
 Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game Gear screen (it's also not 4:3, so we've already deviated from reality) but it includes some really nice enhanced LCD subpixel effects. Same issue with the edge shadow as for GBC.
 
@@ -292,21 +292,25 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 </details>
 
 ### Notes:
-- This version uses 1playerinsertcoin's grid at 90% opacity. The alt version includes the grid at 80% opacity with some extra mucking around by me to desaturate the colors a bit.
+- This version uses 1playerinsertcoin's grid at 90% opacity. There's also an alt version that I've mucked around with to desaturate the colors a bit.
 - The base version of this overlay at 100% opacity and without border graphics and shadows is available in [1playerinsertcoin assorted overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4:3 version (no more skinny Sonic) is also available.
 
 # [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/1playerinsertcoin%20Assorted%20Overlays)
-As you may have gathered, 1playerinsertcoin has been very generous with their time in creating overlays for a device they don't even own. Given how long it takes to create high quality overlays, limited free time, etc, I thought it would be unfair to keep these to myself until I was done creating my versions. These overlays don't have any border decorations, shadows, etc, and, with one exception, are all centered. Please credit 1playerinsertcoin if you use these to create your own versions.
+As you may have gathered, 1playerinsertcoin has been very generous with their time in creating overlays for a device they don't even own. In addition to the overlays listed above, they've also created versions for GBA, NGPC, and PICO-8. Since I don't know when I'll get around to making borders for these, I've decided to upload all of the overlays they've created for me so others can enjoy. These overlays don't have any border decorations, shadows, etc, and, with one exception, are all centered. Please credit 1playerinsertcoin if you use these to create your own versions.
 
 Overlays include:
 - GBA 3x integer
+
 - GBC 4x integer
 - GBC 4x integer offset
-- GBC non-integer (720x648) 
+- GBC non-integer (720x648)
+ 
 - GG non-integer (720x648; square pixels)
 - GG non-integer 4:3 (720x540; rectangular pixels)
+  
 - NGPC 4x integer
 - NGPC non-integer (720x684)
+
 - PICO-8 non-integer (720x720)
 
 ## Configuration
@@ -355,7 +359,7 @@ Overlays include:
    
   #### 3. Scaling Settings:
     
-  <details><summary>i. Integer scale overlays - except Perfect_GBC-720p(4x offset)</summary>
+  <details><summary>i. Integer scale overlays - except for Perfect_GBC-720p(4x offset)</summary>
     
       Main Menu > Settings > Video > Scaling
 
