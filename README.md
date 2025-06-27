@@ -19,7 +19,7 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 ![GBP_composite](https://github.com/user-attachments/assets/2d685d1d-fc20-47b8-bd4e-e7da518a7416)
 ![GBL-Teal_composite](https://github.com/user-attachments/assets/3087a755-916e-47e7-ac5e-7ff7f908a2ae)
 ![GBL-Blue_composite](https://github.com/user-attachments/assets/559a4d03-7060-46c7-bacf-e425b2cf0f25)
-*Note: I've noticed that the colors of the Game Boy Light palettes in the images above vary significantly depending on the display they're being viewed on. If they appear desaturated, be assured that they're not when viewed on device.*<br><br>
+*I've noticed that the colors of the Game Boy Light palettes in the images above vary significantly depending on the display they're being viewed on. If they appear desaturated, be assured that they're not when viewed on device.*<br><br>
 
 These overlays work with a shader preset to produce custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.
 
