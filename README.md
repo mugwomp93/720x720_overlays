@@ -4,16 +4,16 @@
 1. [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-pocket--light)
 2. [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-color)
 3. [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main#game-gear)
-4. [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#1playerinsertcoin-assorted-overlays)
+4. [Assorted 1playerinsertcoin Grid Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays) - GBA, GBC, GG, NGPC, PICO-8
 
 # Notes
-I normally wouldn't upload anything that wasn't finished; however, I likely won't be completing these any time soon so I thought I would make them available in case anyone wants to use them. I'll update with additional and/or revised overlays as time and interest permit.
+I normally wouldn't upload anything that wasn't finished; however, I likely won't be completing these any time soon so I thought I would make them available in case anyone wants to use them. I'll update with additional, revised, and/or final overlays as time and interest permit.
 
-- I haven't uploaded anything that I wouldn't use myself, but be aware that there are still a number of issues that need to be resolved (I'm likely aware of most; the limiting factor at this point is the intersection of free time with motivation). I'll label final versions as such if and when I upload them.
+- I haven't uploaded anything that I wouldn't use myself, but be aware that there are still a number of minor visual issues that need to be resolved. Please let me know if you want to take a shot at fixing them - I'm happy to provide my working materials (as messy as they are). Otherwise, I'll get to them eventually. Probably.
 
 - With the exception of the GB overlays, the overlay grids were created by [1playerinsertcoin](https://www.reddit.com/u/1playerinsertcoin/s/yhapRMwOJz). Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids (and there are many!) goes to 1playerinsertcoin. Any deficiencies are my own.
 
-- **Note regarding sample images:** The apparent (un)evenness of gridlines in the images below depends on a number of factors, including the size, resolution, and % zoom of the viewing display, as well as any scaling applied by Github. Your best bet is to click into the individual images and view at 100% scale (or multiples thereof; 100%, 200%, etc). Colors have been altered to approximate those seen on device but are not completely accurate.
+- **Note regarding sample images:** The apparent (un)evenness of gridlines in the images below depends on a number of factors, including the size, resolution, and % zoom of the viewing display, as well as any scaling applied by Github. Your best bet to avoid scaling artifacts is to click into the individual images and view at 100% zoom or higher. For best viewing, I've found that 100% zoom on a 14" QHD screen gives a fairly accurate representation of real-life size and appearance. Similarly, I've altered the brightness and colors to approximate those seen on device, but they're not completely accurate and ymmv depending on your viewing display.
 
 # [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
 ![GBP_composite](https://github.com/user-attachments/assets/2d685d1d-fc20-47b8-bd4e-e7da518a7416)
@@ -209,7 +209,7 @@ I'm also working on a DMG version but it's not as far along.<br>
 
 ### Notes:
 - ***This is a dark overlay. You'll want to increase your screen brightness for best results.***
-- A version of this overlay without border graphics and shadows is available in [1playerinsertcoin assorted overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4x integer version is also available.
+- A version of this overlay without border graphics and shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#assorted-1playerinsertcoin-grid-overlays). A 4x integer version is also available.
 
 # [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GG)
 ![GG_composite](https://github.com/user-attachments/assets/186f4cf8-3f65-45d1-872a-43bd6dbef538)
@@ -296,37 +296,37 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 ### Notes:
 - ***This is a dark overlay. You'll want to increase your screen brightness for best results.***
 - This version uses 1playerinsertcoin's grid at 90% opacity. There's also an alt version that I've mucked around with to desaturate the colors a bit.
-- The base version of this overlay at 100% opacity and without border graphics and shadows is available in [1playerinsertcoin assorted overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#1playerinsertcoin-assorted-overlays). A 4:3 version (no more skinny Sonic) is also available.
+- The base version of this overlay at 100% opacity and without border graphics and shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#assorted-1playerinsertcoin-grid-overlays). A 4:3 version (no more skinny Sonic) is also available.
 
-# [1playerinsertcoin Assorted Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/1playerinsertcoin%20Assorted%20Overlays)
+# [Assorted 1playerinsertcoin Grid Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/1playerinsertcoin%20Assorted%20Overlays)
 As you may have gathered, 1playerinsertcoin has been very generous with their time in creating overlays for a device they don't even own. In addition to the overlays listed above, they've also created versions for GBA, NGPC, and PICO-8. Since I don't know when I'll get around to making borders for these, I've decided to upload all of the 720x720 overlays they've created for me so others can enjoy. These overlays don't have any border decorations, shadows, etc, and, with one exception, are all centered. Please credit 1playerinsertcoin if you use these to create your own versions.<br>
 ### Game Boy Advance
 - 3x integer<br><br>  
-  ![GBA_1pic](https://github.com/user-attachments/assets/e65db27f-f062-40fa-baa0-b89a838c1b4d)<br><br>
+  ![GBA_1pic](https://github.com/user-attachments/assets/f57a881e-70b0-4cd0-8ac9-7e3ccc86dc2f)<br><br>
 
 ### Game Boy Color
 - Non-integer (720x648)
 - 4x integer
 - 4x integer offset<br><br>
 
-  ![GBC_1pic](https://github.com/user-attachments/assets/965907d5-ac4c-479f-846c-fda6efc5569e)<br><br>
+  ![GBC_1pic](https://github.com/user-attachments/assets/10d44e5d-eff2-4dfd-b160-8514b470c3fd)<br><br>
 
 ### Game Gear
 - Non-integer (720x648; square pixels)
 - Non-integer 4:3 (720x540; rectangular pixels)<br><br>
 
-  ![GG_1pic](https://github.com/user-attachments/assets/5755edfd-6040-40dd-a361-a537e169985c)<br><br>
+  ![GG_1pic](https://github.com/user-attachments/assets/3ccdd69a-5ed0-44b7-8988-321caf50cd6a)<br><br>
 
 ### Neo Geo Pocket Color
 - Non-integer (720x684)
 - 4x integer<br><br>
 
-  ![NGPC_1pic](https://github.com/user-attachments/assets/64633a07-b416-42d2-bbcc-a775d5153ec8)<br><br>
+  ![NGPC_1pic](https://github.com/user-attachments/assets/9337a4e1-d8e1-411e-94db-d19d99f07425)<br><br>
 
 ### PICO-8
 - Non-integer (720x720)<br><br>
 
-  ![PICO_1pic](https://github.com/user-attachments/assets/8cee2a13-5000-4126-a433-58ce4b2f23c3)<br><br>
+  ![PICO_1pic](https://github.com/user-attachments/assets/faacfb5e-4405-41d3-9a73-21f631b5b29d)<br><br>
 
 ## Configuration
 <details>
