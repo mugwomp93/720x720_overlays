@@ -15,7 +15,7 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 
 ### Important notes regarding sample images:
 - ***Gridlines:***<br>
-The apparent (un)evenness of gridlines in the images below depends on a number of factors, including the size, resolution, and % zoom of the viewing display, as well as any scaling applied by Github. Your best bet to avoid scaling artifacts is to download the individual images and view at 100% zoom or higher. For best viewing, I've found that 100% zoom on a 14" QHD screen gives a fairly accurate representation of real-life size and appearance.
+The apparent (un)evenness of gridlines in the images below depends on a number of factors, including the size, resolution, and % zoom of the viewing display, as well as any scaling applied by Github. Your best bet to avoid scaling artifacts is to download the individual images and view at 100% zoom. For best viewing, I've found that 100% zoom on a 14" QHD screen gives a fairly accurate representation of real-life size and appearance.
 - ***Colors:***<br>
 Screenshots are recorded at a default brightness. As a result, images with dark overlays appear very dark. I've altered the brightness, contrast, and saturation of the sample images to better approximate what you can expect to see on device, but they're not completely accurate to real life. Also, ymmv depending on your viewing display.
 
