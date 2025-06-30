@@ -17,7 +17,7 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 - ***Gridlines:***<br>
 The apparent (un)evenness of gridlines in the images below depends on a number of factors, including the size, resolution, and % zoom of the viewing display, as well as any scaling applied by Github. Your best bet to avoid scaling artifacts is to download the individual images and view at 100% zoom. For best viewing, I've found that 100% zoom on a 14" QHD screen gives a fairly accurate representation of real-life size and appearance.
 - ***Colors:***<br>
-Screenshots are recorded at a default brightness. As a result, images with dark overlays appear very dark. I've altered the brightness, contrast, and saturation of the sample images to better approximate what you can expect to see on device, but they're not completely accurate to real life. Also, ymmv depending on your viewing display.
+Screenshots are recorded at a default brightness. As a result, images with dark overlays appear very dark. I've altered the brightness, contrast, and saturation of the sample images to better approximate what you can expect to see on device, but they're not completely accurate to real life. For the images with dark overlays, I've included insets of the raw, unedited screenshots to give a better idea of the relative effects of the grid overlays as playing with the image parameters can alter the apparent strength etc. of the gridlines relative to the image behind them. Note also that ymmv depending on your viewing display.
 
 # [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
 ![GBP_composite](https://github.com/user-attachments/assets/2d685d1d-fc20-47b8-bd4e-e7da518a7416)
@@ -319,13 +319,13 @@ As you may have gathered, 1playerinsertcoin has been very generous with their ti
 - Non-integer (720x648; square pixels)
 - Non-integer 4:3 (720x540; rectangular pixels)<br><br>
 
-  ![GG_1pic](https://github.com/user-attachments/assets/2e623b7c-de9f-4d4d-a767-0714daeb4dba)<br><br>
+  ![GG_1pic](https://github.com/user-attachments/assets/7090374a-c84f-4445-8ed8-6e9c2d72249f)<br><br>
 
 ### Neo Geo Pocket Color
 - Non-integer (720x684)
 - 4x integer<br><br>
 
-  ![NGPC_1pic](https://github.com/user-attachments/assets/a2caffbe-ad5a-4475-80d3-4de5853dc3fb)<br><br>
+  ![NGPC_1pic](https://github.com/user-attachments/assets/16ccf033-48ea-424b-a61a-d5df7cd3bb9e)<br><br>
 
 ### PICO-8
 - Non-integer (720x720)<br><br>
