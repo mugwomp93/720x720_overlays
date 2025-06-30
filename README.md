@@ -14,7 +14,10 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 - With the exception of the GB overlays, the overlay grids were created by [1playerinsertcoin](https://www.reddit.com/u/1playerinsertcoin/s/yhapRMwOJz). Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids (and there are many!) goes to 1playerinsertcoin. Any deficiencies are my own.
 
 ### Important note regarding sample images:
-The apparent (un)evenness of gridlines in the images below depends on a number of factors, including the size, resolution, and % zoom of the viewing display, as well as any scaling applied by Github. Your best bet to avoid scaling artifacts is to download the individual images and view at 100% zoom or higher. For best viewing, I've found that 100% zoom on a 14" QHD screen gives a fairly accurate representation of real-life size and appearance. Similarly, I've altered the brightness and colors to approximate those seen on device, but they're not completely accurate and ymmv depending on your viewing display.
+- ***Gridlines:***<br>
+The apparent (un)evenness of gridlines in the images below depends on a number of factors, including the size, resolution, and % zoom of the viewing display, as well as any scaling applied by Github. Your best bet to avoid scaling artifacts is to download the individual images and view at 100% zoom or higher. For best viewing, I've found that 100% zoom on a 14" QHD screen gives a fairly accurate representation of real-life size and appearance.
+- ***Colors:***<br>
+Screenshots are recorded at a default brightness. As a result, images with dark overlays appear very dark. I've altered the brightness, contrast, and saturation of the sample images to better approximate what you can expect to see on device, but they're not completely accurate to real life. Also, ymmv depending on your viewing display.
 
 # [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
 ![GBP_composite](https://github.com/user-attachments/assets/2d685d1d-fc20-47b8-bd4e-e7da518a7416)
@@ -111,7 +114,7 @@ I'm also working on a DMG version but it's not as far along.<br>
 - I suggest leaving Shadow Offset Horiz at 4.50 as the preset value adds a shadow on the right edge of the screen that the overlays are design to complement. They may look weird if you reduce the horizontal shadow or change the direction. Similarly, the edge shadows on the overlay may look strange if used without the shader preset.
 
 # [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GBC)
-![GBC_composite](https://github.com/user-attachments/assets/d78ac4ad-bfc1-4030-9312-411f0a5a9fe0)
+![GBC_composite](https://github.com/user-attachments/assets/681377bf-286f-447e-8095-c6781f2463b2)
 
 1playerinsertcoin was kind enough to create a number of iterations of this overlay grid for testing. I think the final version looks fantastic, which is especially impressive considering they don't have a 720x720 device. I'm not 100% happy with the edge shadow so I may revisit it at some point, but otherwise this is as close to finished as any of these overlays.
 
@@ -213,7 +216,7 @@ I'm also working on a DMG version but it's not as far along.<br>
 - A version of this overlay without border graphics and shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/edit/main/README.md#assorted-1playerinsertcoin-grid-overlays). A 4x integer version is also available.
 
 # [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GG)
-![GG_composite](https://github.com/user-attachments/assets/186f4cf8-3f65-45d1-872a-43bd6dbef538)
+![GG_composite](https://github.com/user-attachments/assets/38eecb2b-b9f6-45e9-be67-3cbbc1dbbe9d)
 
 Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game Gear screen (it's also not 4:3, so we've already deviated from reality) but it includes some really nice enhanced LCD subpixel effects. Same issue with the edge shadow as for GBC.
 
@@ -303,31 +306,31 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 As you may have gathered, 1playerinsertcoin has been very generous with their time in creating overlays for a device they don't even own. In addition to the overlays listed above, they've also created versions for GBA, NGPC, and PICO-8. Since I don't know when I'll get around to making borders for these, I've decided to upload all of the 720x720 overlays they've created for me so others can enjoy. These overlays don't have any border decorations, shadows, etc, and, with one exception, are all centered. Please credit 1playerinsertcoin if you use these to create your own versions.<br>
 ### Game Boy Advance
 - 3x integer<br><br>  
-  ![GBA_1pic](https://github.com/user-attachments/assets/f57a881e-70b0-4cd0-8ac9-7e3ccc86dc2f)<br><br>
+  ![GBA_1pic](https://github.com/user-attachments/assets/763d2ce7-38f4-49da-9d74-23b39f6979c5)<br><br>
 
 ### Game Boy Color
 - Non-integer (720x648)
 - 4x integer
 - 4x integer offset<br><br>
 
-  ![GBC_1pic](https://github.com/user-attachments/assets/10d44e5d-eff2-4dfd-b160-8514b470c3fd)<br><br>
+  ![GBC_1pic](https://github.com/user-attachments/assets/cb05f167-f631-41d2-a8f9-3bb37f154884)<br><br>
 
 ### Game Gear
 - Non-integer (720x648; square pixels)
 - Non-integer 4:3 (720x540; rectangular pixels)<br><br>
 
-  ![GG_1pic](https://github.com/user-attachments/assets/3ccdd69a-5ed0-44b7-8988-321caf50cd6a)<br><br>
+  ![GG_1pic](https://github.com/user-attachments/assets/2e623b7c-de9f-4d4d-a767-0714daeb4dba)<br><br>
 
 ### Neo Geo Pocket Color
 - Non-integer (720x684)
 - 4x integer<br><br>
 
-  ![NGPC_1pic](https://github.com/user-attachments/assets/9337a4e1-d8e1-411e-94db-d19d99f07425)<br><br>
+  ![NGPC_1pic](https://github.com/user-attachments/assets/a2caffbe-ad5a-4475-80d3-4de5853dc3fb)<br><br>
 
 ### PICO-8
 - Non-integer (720x720)<br><br>
 
-  ![PICO_1pic](https://github.com/user-attachments/assets/faacfb5e-4405-41d3-9a73-21f631b5b29d)<br><br>
+  ![PICO_1pic](https://github.com/user-attachments/assets/bd37afd6-17d8-49be-b799-808ee60975eb)<br><br>
 
 ## Configuration
 <details>
