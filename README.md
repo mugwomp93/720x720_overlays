@@ -17,7 +17,7 @@ I normally wouldn't upload anything that wasn't finished; however, I likely won'
 - ***Gridlines:***<br>
 The apparent (un)evenness of gridlines in the images below depends on a number of factors, including the size, resolution, and % zoom of the viewing display, as well as any scaling applied by Github. Your best bet to avoid scaling artifacts is to download the individual images and view at 100% zoom. For best viewing, I've found that 100% zoom on a 14" QHD screen gives a fairly accurate representation of real-life size and appearance.
 - ***Colors:***<br>
-Screenshots are recorded at a default brightness. As a result, images with dark overlays appear very dark. I've altered the brightness, contrast, and saturation of the sample images to better approximate what you can expect to see on device, but they're not completely accurate to real life. For the images with dark overlays, I've included insets of the raw, unedited screenshots to give a better idea of the relative effects of the grid overlays as playing with the image parameters can alter the apparent strength etc. of the gridlines relative to the image behind them. Note also that ymmv depending on your viewing display.
+Screenshots are recorded at a default brightness. As a result, images with dark overlays appear very dark. I've altered the brightness, contrast, and saturation of the sample images to better approximate what you can expect to see on device, but they're not completely accurate to real life. For the images with dark overlays, I've included insets of the unedited screenshots at 2x zoom to give a better idea of the relative effects of the grid overlays as playing with the image parameters can alter the apparent strength etc. of the gridlines relative to the image behind them. Note also that ymmv depending on your viewing display.
 
 # [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
 ![GBP_composite_old](https://github.com/user-attachments/assets/ce76aa4e-c212-4123-9635-7dfa32571237)
@@ -114,7 +114,7 @@ I'm also working on a DMG version but it's not as far along.<br>
 - I suggest leaving Shadow Offset Horiz at 4.50 as the preset value adds a shadow on the right edge of the screen that the overlays are design to complement. They may look weird if you reduce the horizontal shadow or change the direction. Similarly, the edge shadows on the overlay may look strange if used without the shader preset.
 
 # [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GBC)
-![GBC_composite_old](https://github.com/user-attachments/assets/71460af6-cf04-4cfe-980f-761bfeb36ff1)
+![GBC_composite_old](https://github.com/user-attachments/assets/c8590cfa-59a3-466b-aeb4-a6faf8c1a503)
 
 1playerinsertcoin was kind enough to create a number of iterations of this overlay grid for testing. I think the final version looks fantastic, which is especially impressive considering they don't have a 720x720 device. I'm not 100% happy with the edge shadow so I may revisit it at some point, but otherwise this is as close to finished as any of these overlays.
 
@@ -216,7 +216,7 @@ I'm also working on a DMG version but it's not as far along.<br>
 - A version of this overlay without border graphics and shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays). A 4x integer version is also available.
 
 # [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GG)
-![GG_composite_old](https://github.com/user-attachments/assets/8db11e0a-7160-46b5-b253-831ff7aeae52)
+![GG_composite_old](https://github.com/user-attachments/assets/ddbb9bc0-8be3-476a-9c94-be6a10da9c1f)
 
 Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game Gear screen (it's also not 4:3, so we've already deviated from reality) but it includes some really nice enhanced LCD subpixel effects. Same issue with the edge shadow as for GBC.
 
@@ -307,31 +307,31 @@ As you may have gathered, 1playerinsertcoin has been very generous with their ti
 ### Game Boy Advance
 - 3x integer<br><br>
 
-  ![GBA_1pic_old](https://github.com/user-attachments/assets/a4da5c3f-b249-426e-9d79-aa4015ecf17c)<br><br>
+  ![GBA_1pic_old](https://github.com/user-attachments/assets/b6bac44a-7286-4557-92db-9d1cc9d58f70)<br><br>
 
 ### Game Boy Color
 - Non-integer (720x648)
 - 4x integer
 - 4x integer offset<br><br>
 
-  ![GBC_1pic_old](https://github.com/user-attachments/assets/6710eaf0-ccb0-463a-a3f4-6e87f2a9bc06)<br><br>
+  ![GBC_1pic_old](https://github.com/user-attachments/assets/e145507a-6863-4448-a7f7-4a0e7d2d7b05)<br><br>
 
 ### Game Gear
 - Non-integer (720x648; square pixels)
 - Non-integer 4:3 (720x540; rectangular pixels)<br><br>
 
-  ![GG_1pic_old](https://github.com/user-attachments/assets/43d4db41-3255-4acc-9096-81181f2dfd83)<br><br>
+  ![GG_1pic_old](https://github.com/user-attachments/assets/4fe76116-ea08-48f1-afc3-13a59cc8d76b)<br><br>
 
 ### Neo Geo Pocket Color
 - Non-integer (720x684)
 - 4x integer<br><br>
 
-  ![NGPC_1pic_old](https://github.com/user-attachments/assets/76dd028a-eac2-4fed-b30a-5b050feaf089)<br><br>
+  ![NGPC_1pic_old](https://github.com/user-attachments/assets/a533444f-b945-4ffc-8a38-e14613dc5610)<br><br>
 
 ### PICO-8
 - Non-integer (720x720)<br><br>
 
-  ![PICO_1pic_old](https://github.com/user-attachments/assets/b10f3d86-16f5-4fe9-b15a-66dae9d94374)<br><br>
+  ![PICO_1pic_old](https://github.com/user-attachments/assets/7774d318-3542-4604-b4ef-bf5b00a2073e)<br><br>
 
 ## Configuration
 <details>
