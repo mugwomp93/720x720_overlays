@@ -1,4 +1,4 @@
-**A collection of work-in-progress 720x720 overlays for the RG CubeXX and other devices. Tested on muOS Pixie.**
+**A collection of 720x720 overlays for the RG CubeXX and other devices. Tested on muOS Pixie.**
 
 # Contents
 1. [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-pocket--light)
@@ -7,9 +7,9 @@
 4. [Assorted 1playerinsertcoin Grid Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays) - GBA, GBC, GG, NGPC, PICO-8
 
 # Notes
-I normally wouldn't upload anything that wasn't finished; however, I likely won't be completing these any time soon so I thought I would make them available in case anyone wants to use them. I'll update with additional, revised, and/or final overlays as time and interest permit.
+I normally wouldn't upload anything that wasn't finished; however, these are complete except for minor issues and I likely won't be completing them any time soon. I thought I would make them available in case anyone wants to use them. I'll update with additional, revised, and/or final overlays as time and interest permit.
 
-- I haven't uploaded anything that I wouldn't use myself, but be aware that there are still a number of minor visual issues that need to be resolved. Please let me know if you want to take a shot at fixing them - I'm happy to provide my working materials (as messy as they are). Otherwise, I'll get to them eventually. Probably.
+- I haven't uploaded anything that I wouldn't use myself, but be aware that there are still a number of minor visual issues that need to be resolved (mostly to do with shadows). Please let me know if you want to take a shot at fixing them - I'm happy to provide my working materials (as messy as they are). Otherwise, I'll get to them eventually. Probably.
 
 - With the exception of the GB overlays, the overlay grids were created by [1playerinsertcoin](https://www.reddit.com/u/1playerinsertcoin/s/yhapRMwOJz). Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids (and there are many!) goes to 1playerinsertcoin. Any deficiencies are my own.
 
