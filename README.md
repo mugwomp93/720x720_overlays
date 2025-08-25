@@ -7,6 +7,9 @@
 4. [Assorted 1playerinsertcoin Grid Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays) - GBA, GBC, GG, NGPC, PICO-8
 
 # Notes
+*Update 2025-08-25*
+- Fixed GBA, GBC, and NGPC integer-scale overlay names. These should work now.
+
 These overlays are finished except for some minor issues. I likely won't be completing them any time soon (that last 5-10% is incredibly time consuming) so I thought I would make them available in case anyone wants to use them. I'll update with additional, revised, and/or final overlays as time and interest permit.
 
 - I haven't uploaded anything that I wouldn't use myself, but be aware that there are still a number of minor visual issues that need to be resolved (mostly to do with shadows and opacity). Please let me know if you want to take a shot at fixing them - I'm happy to provide my working materials (as messy as they are). Otherwise, I'll get to them eventually. Probably.
