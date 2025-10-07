@@ -45,7 +45,7 @@ It seemed a shame not to add some border decorations to 1playerinsertcoin's awes
          Display Overlay > ON
 
          Overlay Preset...
-           > Navigate to where you saved the .png and .cfg files and select GBC_720x720.cfg
+           > Navigate to where you saved the .png and .cfg files and select your preferred version
 
          Overlay Opacity > 1.00
  
