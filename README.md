@@ -218,8 +218,6 @@ These overlays work with a shader preset to produce custom palettes and a subtle
 
         GB Colorization > Off
 
-        Interframe Blending	> Simple (NOTE: If you don't like the image ghosting, turn it OFF, but you may see flickering elements in games.)
-
         Manage Core Options > Save Content Directory Options
   
   #### 2. Apply the Overlay:
