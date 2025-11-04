@@ -76,7 +76,7 @@ It seemed a shame not to add some border decorations to 1playerinsertcoin's awes
 # [Game Boy Bivert](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
 ![Bivert_composite](https://github.com/user-attachments/assets/cd42c1c1-bd8a-404c-b40a-d16a0fd18c7e)
 
-
+*I'm working on a revision of this one to make the playing area more luminous.*<br><br>
 Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9UfGI6dnuoHDZfPC1) [my](https://share.google/gKa4aEo0yrGUetiSJ) [Game Boy](https://share.google/ORsP1ffJJTIlNehBt) [Pocket](https://share.google/heJKfkAw8pzfmMURW), I thought I would make an overlay instead. This overlay works in combination with a custom palette and a shader preset to produce custom colors and a subtle pixel shadow effect. Modified shader parameters are included below if you would prefer not to have the shadow effect but want to keep the same colors. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.<br>
 
 ## Configuration
