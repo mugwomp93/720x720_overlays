@@ -75,10 +75,10 @@ It seemed a shame not to add some border decorations to 1playerinsertcoin's awes
 - A version of this overlay without border graphics and shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays).
 
 # [Game Boy Bivert](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
-![Bivert_composite](https://github.com/user-attachments/assets/cd42c1c1-bd8a-404c-b40a-d16a0fd18c7e)
+![Bivert_composite](https://github.com/user-attachments/assets/b96e5ceb-20a7-4041-b67f-872ea4a047ee)
 
-*I'm working on a revision of this one to make the playing area more luminous.*<br><br>
-Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9UfGI6dnuoHDZfPC1) [my](https://share.google/gKa4aEo0yrGUetiSJ) [Game Boy](https://share.google/ORsP1ffJJTIlNehBt) [Pocket](https://share.google/heJKfkAw8pzfmMURW), I thought I would make an overlay instead. This overlay works in combination with a custom palette and a shader preset to produce custom colors and a subtle pixel shadow effect. Modified shader parameters are included below if you would prefer not to have the shadow effect but want to keep the same colors. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.<br>
+***Updated with brighter palette***<br><br>
+Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9UfGI6dnuoHDZfPC1) [my](https://share.google/gKa4aEo0yrGUetiSJ) [Game Boy Pocket](https://share.google/ORsP1ffJJTIlNehBt), I thought I would make an overlay instead. This overlay works in combination with a custom palette and has a subtle pixel shadow effect (mostly noticeable over darker pixels).<br>
 
 ## Configuration
 <details>
@@ -87,7 +87,7 @@ Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9U
   ### Installation:
 
   - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB/GB_Bivert.zip) GB_Bivert.zip.
-  - Copy the contents of the shaders and overlays folders to your retroarch > shaders and retroarch > overlays folders, respectively.
+  - Copy the contents of the overlays folder to your retroarch > overlays folder.
   - Copy the palettes folder (containing default.pal) to your BIOS folder (/mnt/mmc/MUOS/bios/ for a 1 SD installation; this may be different for Goose). Note that this will overwrite any custom palettes you are currently using, so make sure to rename or back them up if you don't want to lose them.
 
   ### Settings:
@@ -109,55 +109,13 @@ Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9U
          Overlay Preset...
            > Navigate to retroarch > overlays > mugwomp93 > 720x720 and select your preferred overlay:
              
-               - GB_bivert has a tinted grid and a subtle gradient across the playing area
-               - GB_bivert_nogradient has a tinted grid and no subtle gradient
-               - GB_bivert_graygrid has a neutral colored grid if you want to use a different palette
+               - GB_bivert has a subtle gradient across the playing area
+               - GB_bivert_nogradient has no gradient
                - GB_bivert_nolights is the same as GB_bivert without the lights at the bottom edge
              
          Overlay Opacity > 1.00
 
-  #### 3. Apply the Shader Preset:
-  
-    Quick Menu > Shaders
-
-        Video Shaders ON
-
-        Load Preset...
-          > Navigate to retroarch > shaders > mugwomp93 and select the GB_Bivert preset
-
-        Apply Changes
-
-        Save Preset > Save Content Directory Preset
-
-    > If you would prefer not to have the pixel shadow effect:
-
-        Quick Menu > Shaders
-    
-          Shader Parameters...
-
-            Contrast > 0.80
-
-            Ambient Screen Light > 0.85
-
-            Pixel Opacity > 0.50
-
-            Background Smoothing > 0.00
-
-            Shadow Opacity > 0.40
-
-            Shadow Offset Horiz > 0.00
-
-            Shadow Offset Vert > 0.00
-
-            Screen Offset Horiz > 0.00
-
-            Screen Offset Vert > 0.00
-
-          Apply Changes
-
-          Save Preset > Save Content Directory Preset
-
-  #### 4. Scaling Settings:
+   #### 3. Scaling Settings:
     
     Main Menu > Settings > Video > Scaling
     
@@ -185,7 +143,7 @@ Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9U
     
         Crop Overscan > OFF
 
-  #### 5. Save an Override
+  #### 4. Save an Override
 
     Quick Menu > Overrides > Save Content Directory Overrides
     
@@ -193,7 +151,6 @@ Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9U
 
 ### Notes:
 - The colors aren't intended to be 100% true to real life. Consider them "inspired by" instead of accurate representations.
-- You may notice that some of the pixel shadows are bisected by the grid lines. I don't really notice this on device (it's much more apparent in the screenshots), but if it bothers you, you can adjust Shadow Offset Vert in the shader parameters to +4.00. This will position the shadows at a full 1 game pixel offset, 45 degrees down and left of their respective pixels.
 
 # [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
 ![GBP_composite_old](https://github.com/user-attachments/assets/ce76aa4e-c212-4123-9635-7dfa32571237)
