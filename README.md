@@ -2,7 +2,7 @@
 
 # Contents
 1. [Game Boy Advance](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-advance) *- updated 2025-11-05*
-2. [Game Boy Bivert](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-bivert)
+2. [Game Boy Bivert](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-bivert) *- updated 2025-11-05*
 3. [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-pocket--light)
 4. [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-color)
 5. [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main#game-gear)
