@@ -1,7 +1,7 @@
 **A collection of 720x720 overlays for the RG CubeXX and other devices. Tested on muOS Pixie.**
 
 # Contents
-1. [Game Boy Advance](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-advance)
+1. [Game Boy Advance](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-advance) *- updated 2025-11-05*
 2. [Game Boy Bivert](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-bivert)
 3. [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-pocket--light)
 4. [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-color)
@@ -20,6 +20,7 @@ Screenshots are recorded at a default brightness. As a result, images with dark 
 # [Game Boy Advance](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GBA)
 ![GBA_composite](https://github.com/user-attachments/assets/b2e79ee3-d8ed-494f-85e0-8a89959e6269)
 
+***Updated with brighter logo***<br><br>
 It seemed a shame not to add some border decorations to 1playerinsertcoin's awesome [3x GBA integer-scale overlay](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays), so after some time to think about what I wanted, here it is. I started with one of jeltr0n's 720x720 GBA overlays (via Banshee_Sweetwater's recubexx bezels pack from the Knulli Discord) to use as a base and added my own twist. I've included both a regular and darker version, which uses a slightly darker gray at the top and bottom edges for playing in lower light conditions to help minimize any sort of "glow". I've also included versions without the grid for those who would prefer to use shaders.
 
 ## Configuration
