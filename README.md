@@ -1,8 +1,8 @@
 **A collection of 720x720 overlays for the RG CubeXX and other devices. Tested on muOS Pixie.**
 
 # Contents
-1. [Game Boy Advance](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-advance) *- updated 2025-11-05*
-2. [Game Boy Bivert](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-bivert) *- updated 2025-11-05*
+1. [Game Boy Advance](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-advance)
+2. [Game Boy Bivert](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-bivert)
 3. [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-pocket--light)
 4. [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-color)
 5. [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main#game-gear)
@@ -75,7 +75,7 @@ It seemed a shame not to add some border decorations to 1playerinsertcoin's awes
 - A version of this overlay without border graphics and shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays).
 
 # [Game Boy Bivert](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
-![Bivert_composite](https://github.com/user-attachments/assets/b96e5ceb-20a7-4041-b67f-872ea4a047ee)
+![Bivert_composite](https://github.com/user-attachments/assets/ebd5fb6f-da32-411a-bf77-56dcf7e57d4b)
 
 ***Updated with brighter palette***<br><br>
 Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9UfGI6dnuoHDZfPC1) [my](https://share.google/gKa4aEo0yrGUetiSJ) [Game Boy Pocket](https://share.google/ORsP1ffJJTIlNehBt), I thought I would make an overlay instead. This overlay works in combination with a custom palette and has a subtle pixel shadow effect (mostly noticeable over darker pixels).<br>
