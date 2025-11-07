@@ -75,10 +75,10 @@ It seemed a shame not to add some border decorations to 1playerinsertcoin's awes
 - A version of this overlay without border graphics and shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays).
 
 # [Game Boy Bivert](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
-![Bivert_composite](https://github.com/user-attachments/assets/ebd5fb6f-da32-411a-bf77-56dcf7e57d4b)
+![Bivert_composite](https://github.com/user-attachments/assets/34f56db8-8470-4318-806a-e10fba606880)
 
-***Updated with brighter palette***<br><br>
-Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9UfGI6dnuoHDZfPC1) [my](https://share.google/gKa4aEo0yrGUetiSJ) [Game Boy Pocket](https://share.google/ORsP1ffJJTIlNehBt), I thought I would make an overlay instead. This overlay works in combination with a custom palette and has a subtle pixel shadow effect (mostly noticeable over darker pixels).<br>
+***Updated with final version***<br><br>
+Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9UfGI6dnuoHDZfPC1) [my](https://share.google/gKa4aEo0yrGUetiSJ) [Game Boy Pocket](https://share.google/ORsP1ffJJTIlNehBt), I thought I would make an overlay instead. This overlay works in combination with a custom palette and has an orange-purple gradient effect to help simulate more realistic lighting.<br>
 
 ## Configuration
 <details>
@@ -107,12 +107,8 @@ Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9U
          Display Overlay > ON
 
          Overlay Preset...
-           > Navigate to retroarch > overlays > mugwomp93 > 720x720 and select your preferred overlay:
-             
-               - GB_bivert has a subtle gradient across the playing area
-               - GB_bivert_nogradient has no gradient
-               - GB_bivert_nolights is the same as GB_bivert without the lights at the bottom edge
-             
+           > Navigate to retroarch > overlays > mugwomp93 and select GB_bivert
+                          
          Overlay Opacity > 1.00
 
    #### 3. Scaling Settings:
