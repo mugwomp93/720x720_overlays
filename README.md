@@ -18,7 +18,7 @@ The apparent (un)evenness of gridlines in the images below depends on a number o
 Screenshots are recorded at a default brightness. As a result, images with dark overlays appear very dark. I've altered the brightness, contrast, and saturation of the sample images to better approximate what you can expect to see on device, but they're not completely accurate to real life. For the images with dark overlays, I've included insets of the unedited screenshots at 2x zoom to give a better idea of the relative effects of the grid overlays as playing with the image parameters can alter the apparent strength etc. of the gridlines relative to the image behind them. Note also that ymmv depending on your viewing display.
 
 # [Game Boy Advance](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GBA)
-![GBA_composite](https://github.com/user-attachments/assets/b2e79ee3-d8ed-494f-85e0-8a89959e6269)
+![GBA_composite](https://github.com/user-attachments/assets/6a271299-2919-49e3-b321-c905eaf8cbd6)
 
 ***Updated with brighter logo***<br><br>
 It seemed a shame not to add some border decorations to 1playerinsertcoin's awesome [3x GBA integer-scale overlay](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays), so after some time to think about what I wanted, here it is. I started with one of jeltr0n's 720x720 GBA overlays (via Banshee_Sweetwater's recubexx bezels pack from the Knulli Discord) to use as a base and added my own twist. I've included both a regular and darker version, which uses a slightly darker gray at the top and bottom edges for playing in lower light conditions to help minimize any sort of "glow". I've also included versions without the grid for those who would prefer to use shaders.
