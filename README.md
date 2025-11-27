@@ -150,9 +150,8 @@ Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9U
 
 # [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
 ![GBP_composite_old](https://github.com/user-attachments/assets/ce76aa4e-c212-4123-9635-7dfa32571237)
-![GBL-Teal_composite_old](https://github.com/user-attachments/assets/7dda037d-570f-4f3d-8b2a-68d14ab84926)
 ![GBL-Blue_composite_old](https://github.com/user-attachments/assets/57ab535c-8530-4d43-91bc-7ab7c3388934)
-*I've noticed that the colors of the Game Boy Light palettes in the images above vary significantly depending on the display they're being viewed on. If they appear desaturated, be assured that they're not when viewed on device.*<br><br>
+*I've noticed that the colors of the Game Boy Light palette in the images above vary significantly depending on the display they're being viewed on. If they appear desaturated, be assured that they're not when viewed on device.*<br><br>
 
 These overlays work with a shader preset to produce custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.<br>
 
@@ -181,7 +180,7 @@ These overlays work with a shader preset to produce custom palettes and a subtle
          Display Overlay > ON
 
          Overlay Preset...
-           > Navigate to retroarch > overlays > mugwomp93 > 720x720 and select your preferred overlay (GB Pocket, GB Light - Teal, GB Light - Blue)
+           > Navigate to retroarch > overlays > mugwomp93 > 720x720 and select your preferred overlay (GB Pocket or Light)
 
          Overlay Opacity > 1.00
 
@@ -192,7 +191,7 @@ These overlays work with a shader preset to produce custom palettes and a subtle
         Video Shaders ON
 
         Load Preset...
-          > Navigate to retroarch > shaders > mugwomp93 and select the preset that corresponds to the overlay you selected (GB Pocket, GB Light - Teal, GB Light - Blue)
+          > Navigate to retroarch > shaders > mugwomp93 and select the preset that corresponds to the overlay you selected
 
         Apply Changes
 
