@@ -21,7 +21,7 @@ Screenshots are recorded at a default brightness. As a result, images with dark 
 ![GBA_composite](https://github.com/user-attachments/assets/6a271299-2919-49e3-b321-c905eaf8cbd6)
 
 ***Updated with brighter logo***<br><br>
-It seemed a shame not to add some border decorations to 1playerinsertcoin's awesome [3x GBA integer-scale overlay](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays), so after some time to think about what I wanted, here it is. I started with one of jeltr0n's 720x720 GBA overlays (via Banshee_Sweetwater's recubexx bezels pack from the Knulli Discord) to use as a base and added my own twist. I've included both a regular and darker version, which uses a slightly darker gray at the top and bottom edges for playing in lower light conditions to help minimize any sort of "glow". I've also included versions without the grid for those who would prefer to use shaders.
+It seemed a shame not to add some border decorations to 1playerinsertcoin's awesome [3x GBA integer-scale overlay](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays), so after some time to think about what I wanted, here it is. I started with [gonejack's GBA overlay for the RGB30](https://github.com/gonejack/rgb30) and added my own twist. I've included both a regular and darker version, which uses a slightly darker gray at the top and bottom edges for playing in lower light conditions to help minimize any sort of "glow". I've also included versions without the grid for those who would prefer to use shaders.
 
 ## Configuration
 <details>
