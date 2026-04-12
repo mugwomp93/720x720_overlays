@@ -516,7 +516,7 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 - The base version of this overlay at 100% opacity and without border graphics and shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays). A 4:3 version (no more skinny Sonic) is also available.
 
 # [Neo Geo Pocket Color](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/NGPC)
-<img width="1900" height="820" alt="NGPC_ver2" src="https://github.com/user-attachments/assets/d677fd61-512e-4b11-819f-d12c1d73fdaa" />
+<img width="1900" height="820" alt="NGPC_ver2" src="https://github.com/user-attachments/assets/6b1efaac-aecc-4696-b91e-84ebfe9c05b8" />
 
 And yet another 1playerinsertcoin grid. As with the Game Gear overlay, this one doesn't specifically emulate the NGPC screen, but it includes some really nice enhanced LCD subpixel effects. I wasn't going to make a border for this overlay since there's so little unused screen area, but Reddit user KugelFanger kindly approached me with these excellent versions (with and without "COLOR TM") and agreed to let me make them available them here. 
 
