@@ -2,11 +2,12 @@
 
 # Contents
 1. [Game Boy Advance](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-advance)
-2. [Game Boy Bivert](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-bivert)
-3. [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-pocket--light)
-4. [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-color)
-5. [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main#game-gear)
-6. [Assorted 1playerinsertcoin Grid Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays) - GBA, GBC, GG, NGPC, PICO-8
+2. [Game Boy Pocket (integer scale)](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-pocket-integer-scale)
+3. [Game Boy Bivert](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-bivert)
+4. [Game Boy Pocket & Light (non-integer scale)](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-pocket--light-non-integer-scale)
+5. [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-color)
+6. [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main#game-gear)
+7. [Assorted 1playerinsertcoin Grid Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays) - GBA, GBC, GG, NGPC, PICO-8
 
 # Notes
 With the exception of the GB overlays, all overlay grids were created by [1playerinsertcoin](https://www.reddit.com/u/1playerinsertcoin/s/yhapRMwOJz). Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids goes to 1playerinsertcoin. Any deficiencies are my own.
@@ -20,7 +21,6 @@ Screenshots are recorded at a default brightness. As a result, images with dark 
 # [Game Boy Advance](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GBA)
 ![GBA_composite](https://github.com/user-attachments/assets/6a271299-2919-49e3-b321-c905eaf8cbd6)
 
-***Updated with brighter logo***<br><br>
 It seemed a shame not to add some border decorations to 1playerinsertcoin's awesome [3x GBA integer-scale overlay](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays), so after some time to think about what I wanted, here it is. I started with [gonejack's GBA overlay for the RGB30](https://github.com/gonejack/rgb30) and added my own twist. I've included both a regular and darker version, which uses a slightly darker gray at the top and bottom edges for playing in lower light conditions to help minimize any sort of "glow". I've also included versions without the grid for those who would prefer to use shaders.
 
 ## Configuration
@@ -74,10 +74,95 @@ It seemed a shame not to add some border decorations to 1playerinsertcoin's awes
 - ***This is a dark overlay. You'll want to increase your screen brightness for best results.***
 - A version of this overlay without border graphics and shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays).
 
+# [Game Boy Pocket (integer scale)](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
+<img width="1900" height="820" alt="GB_Pocket_4x_integer" src="https://github.com/user-attachments/assets/ba66f946-70a0-485c-8770-8428158a588e" />
+
+Not much to say other than I'm pretty pleased with this one. It uses the Special 4 (TI-83 Legacy) internal palette and there are versions for use either with the new [pixel transparency shader](https://github.com/mattakins/Pixel_Transparency/releases/tag/1.1) or without (the shader changes the palette slightly, so the overlay was adjusted to match).<br>
+
+## Configuration
+<details>
+  <summary>Click for installation and settings</summary>
+
+  ### Installation:
+
+  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB) your preferred version (pixel transparency or no shader version).
+  - Copy the contents of the overlays folder to your retroarch > overlays folder.
+  - Optional: If using the pixel transparency shader and it's not already included in your CFW (likely not as of 2026-04-12), download it from [here](https://github.com/mattakins/Pixel_Transparency/releases/tag/1.1) (note: make sure to download the glsl version oand not the slang version) and extract the zip to a usable place . This will vary by CFW; ideally you would copy to the retroarch > shaders folder, but it may not be easily accessible. I use Knulli and have it saved to SD2; I just need to navigate to its location in userdata.
+
+  ### Settings:
+
+  #### 1. Core Options
+
+    Quick Menu > Core Options:
+
+        GB Colorization > Internal
+
+        Internal Palette > Special 4 (TI-83 Legacy)
+
+        Manage Core Options > Save Content Directory Options
+  
+  #### 2. Apply the Overlay:
+  
+    Quick Menu > On-Screen Overlay
+
+         Display Overlay > ON
+
+         Overlay Preset...
+           > Navigate to retroarch > overlays > mugwomp93 and select the version you downloaded
+                          
+         Overlay Opacity > 1.00
+
+   #### 3. (Optional) Apply the Shader:
+
+    Quick Menu > Shaders
+
+        Video Shaders ON
+
+        Load Preset...
+          > Navigate to the location you saved the shader and select pixel_transparency-glsl > handheld > pixel_transparency.glslp
+
+        Apply Changes
+
+        Save Preset > Save Content Directory Preset
+        
+  #### 4. Scaling Settings:
+    
+    Main Menu > Settings > Video > Scaling
+    
+        Integer Scale > ON
+    
+        Integer Scale Axis > Y
+    
+        Integer Scale Scaling > Underscale
+    
+        Aspect Ratio > Custom
+    
+            Custom Aspect Ratio (X Position) > 0
+    
+            Custom Aspect Ratio (Y Position) > 61
+    
+            Custom Aspect Ratio (Width) > 640 (4x)
+    
+            Custom Aspect Ratio (Height) > 576 (4x)
+    
+        Viewport Anchor Bias X > 0.50
+    
+        Viewport Anchor Bias Y > 0.00 (try 1.00 if the image isn't properly aligned with 0.00)
+    
+        Bilinear Filtering > OFF
+    
+        Crop Overscan > OFF
+  
+  #### 5. Save an Override
+
+    Quick Menu > Overrides > Save Content Directory Overrides
+    
+</details>
+
+
 # [Game Boy Bivert](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
 ![Bivert_composite](https://github.com/user-attachments/assets/34f56db8-8470-4318-806a-e10fba606880)
 
-***Updated with final version***<br><br>
 Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9UfGI6dnuoHDZfPC1) [my](https://share.google/gKa4aEo0yrGUetiSJ) [Game Boy Pocket](https://share.google/ORsP1ffJJTIlNehBt), I thought I would make an overlay instead. This overlay works in combination with a custom palette and has an orange-purple gradient effect to help simulate more realistic lighting.<br>
 
 ## Configuration
@@ -148,12 +233,14 @@ Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9U
 ### Notes:
 - The colors aren't intended to be 100% true to real life. Consider them "inspired by" instead of accurate representations.
 
-# [Game Boy Pocket & Light](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
+# [Game Boy Pocket & Light (non-integer scale)](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB)
 ![GBP_composite_old](https://github.com/user-attachments/assets/ce76aa4e-c212-4123-9635-7dfa32571237)
 ![GBL-Blue_composite_old](https://github.com/user-attachments/assets/57ab535c-8530-4d43-91bc-7ab7c3388934)
 *I've noticed that the colors of the Game Boy Light palette in the images above vary significantly depending on the display they're being viewed on. If they appear desaturated, be assured that they're not when viewed on device.*<br><br>
 
-These overlays work with a shader preset to produce custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.<br>
+These overlays work with a shader preset to produce custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.<br><br>
+
+***Note for the GBP version: Instead of using my custom preset as decribed in the configuration section below, you can set the GB Colorization palette to Internal > Special 4 (TI-83 Legacy), apply the sharp-shimmerless shader (already included in muOS and Knulli), and append the new [pixel transparency shader](https://github.com/mattakins/Pixel_Transparency/releases/tag/1.1), which to my knowledge isn't yet included but I expect will be in upcoming releases. The default pixel transparency settings are fairly good, and you can adjust them to dial in your preferred look (contrast, shadow offset, etc).***
 
 ## Configuration
 <details>
@@ -161,7 +248,7 @@ These overlays work with a shader preset to produce custom palettes and a subtle
 
   ### Installation:
 
-  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB/GB.zip) GB.zip and copy the contents of the shaders and overlays folders to your retroarch > shaders and retroarch > overlays folders, respectively.
+  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB/GBP_GBL_non-integer.zip) GBP_GBL_non-integer.zip and copy the contents of the shaders and overlays folders to your retroarch > shaders and retroarch > overlays folders, respectively.
 
   ### Settings:
 
