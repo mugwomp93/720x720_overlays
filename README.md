@@ -1,4 +1,4 @@
-**A collection of 720x720 overlays for the RG CubeXX and other devices. Tested on muOS Pixie.**
+**A collection of 720x720 overlays for the RG CubeXX and other devices. Tested on muOS Pixie and Knulli Gladiator II (via Retroarch settings and overrides).**
 
 # Contents
 1. [Game Boy Advance](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-advance)
@@ -7,12 +7,15 @@
 4. [Game Boy Pocket & Light (non-integer scale)](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-pocket--light-non-integer-scale)
 5. [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-color)
 6. [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main#game-gear)
-7. [Assorted 1playerinsertcoin Grid Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays) - GBA, GBC, GG, NGPC, PICO-8
+7. [Neo Geo Pocket Color](https://github.com/mugwomp93/720x720_overlays/tree/main#neo-geo-pocket-color)
+8. [Assorted 1playerinsertcoin Grid Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays) - GBA, GBC, GG, NGPC, PICO-8
 
 # Notes
-With the exception of the GB overlays, all overlay grids were created by [1playerinsertcoin](https://www.reddit.com/u/1playerinsertcoin/s/yhapRMwOJz). Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids goes to 1playerinsertcoin. Any deficiencies are my own.
+- **IMPORTANT:** The installation and configuration instructions for these overlays will instruct you to save files in the retroarch > overlays and retroarch > shaders directories. Depending on which CFW you're using, you may be able to instead save these files elsewhere and navigate to them in the retroarch menu (or the retroarch folder may be on a Linux partition and not easily accessible). Please refer to the documentation for your specific CFW for the best method to add these overlays.
 
-### Important notes regarding sample images:
+- With the exception of the GB overlays, all overlay grids were created by [1playerinsertcoin](https://www.reddit.com/u/1playerinsertcoin/s/yhapRMwOJz). Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids goes to 1playerinsertcoin. Any deficiencies are my own.
+
+### Notes regarding sample images:
 - ***Gridlines:***<br>
 The apparent (un)evenness of gridlines in the images below depends on a number of factors, including the size, resolution, and % zoom of the viewing display, as well as any scaling applied by Github. Your best bet to avoid scaling artifacts is to download the individual images and view at 100% zoom. For best viewing, I've found that 100% zoom on a 14" QHD screen gives a fairly accurate representation of real-life size and appearance.
 - ***Colors:***<br>
@@ -85,9 +88,8 @@ Not much to say other than I'm pretty pleased with this one. It uses the Special
 
   ### Installation:
 
-  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB) your preferred version (pixel transparency or no shader version).
-  - Copy the contents of the overlays folder to your retroarch > overlays folder.
-  - Optional: If using the pixel transparency shader and it's not already included in your CFW (likely not as of 2026-04-12), download it from [here](https://github.com/mattakins/Pixel_Transparency/releases/tag/1.1) (note: make sure to download the glsl version oand not the slang version) and extract the zip to a usable place . This will vary by CFW; ideally you would copy to the retroarch > shaders folder, but it may not be easily accessible. I use Knulli and have it saved to SD2; I just need to navigate to its location in userdata.
+  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB) both the .png and .cfg files for your preferred version (pixel transparency or no shader) and save them to your retroarch > overlays folder.
+  - Optional: If using the pixel transparency shader and it's not already included in your CFW (likely not as of 2026-04-12), download it from [here](https://github.com/mattakins/Pixel_Transparency/releases/tag/1.1) (note: make sure to download the glsl version and not the slang version) and extract the zip to your retroarch > shaders folder.
 
   ### Settings:
 
@@ -119,7 +121,7 @@ Not much to say other than I'm pretty pleased with this one. It uses the Special
         Video Shaders ON
 
         Load Preset...
-          > Navigate to the location you saved the shader and select pixel_transparency-glsl > handheld > pixel_transparency.glslp
+          > Navigate to retroarch > shaders > pixel_transparency-glsl > handheld and select pixel_transparency.glslp
 
         Apply Changes
 
@@ -240,7 +242,7 @@ Since I'm too paranoid of messing up the mod to [bivert](https://share.google/9U
 
 These overlays work with a shader preset to produce custom palettes and a subtle pixel shadow effect. The shader preset is a combination of the [sharp-shimmerless interpolation shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) and gb-pass4 from Gameboy Shader 0.2.2. I've bundled copies of these shaders up in their own folder, both to keep everything tidy and because I modified the gb-pass4 palette files, but any credit should go to their original creators.<br><br>
 
-***Note for the GBP version: Instead of using my custom preset as decribed in the configuration section below, you can set the GB Colorization palette to Internal > Special 4 (TI-83 Legacy), apply the sharp-shimmerless shader (already included in muOS and Knulli), and append the new [pixel transparency shader](https://github.com/mattakins/Pixel_Transparency/releases/tag/1.1), which to my knowledge isn't yet included but I expect will be in upcoming releases. The default pixel transparency settings are fairly good, and you can adjust them to dial in your preferred look (contrast, shadow offset, etc).***
+***Note for the GBP version: Instead of using my custom preset as decribed in the configuration section below, you can set the GB Colorization palette to Internal > Special 4 (TI-83 Legacy), apply the sharp-shimmerless shader (already included in muOS and Knulli), and append the new [pixel transparency shader](https://github.com/mattakins/Pixel_Transparency/releases/tag/1.1) (make sure to download the glsl version and not the slang version), which to my knowledge isn't yet included but I expect will be in upcoming releases. The default pixel transparency settings are fairly good, and you can adjust them to dial in your preferred look (contrast, shadow offset, etc).***
 
 ## Configuration
 <details>
@@ -379,7 +381,7 @@ These overlays work with a shader preset to produce custom palettes and a subtle
 
           Shader Passes > 1
         
-              Shader #0: shimmerless > shaders > sharp-shimmerless.glsl
+              Shader #0: sharp-shimmerless > shaders > sharp-shimmerless.glsl
 
               Shader #0 Filter: Linear
 
@@ -449,13 +451,13 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
          Display Overlay > ON
 
          Overlay Preset...
-           > Navigate to where you saved the .png and .cfg files and select GG_720x720.cfg or GG_720x720_alt.cfg
+           > Navigate to retroarch > overlays and select GG_720x720.cfg or GG_720x720_alt.cfg
 
          Overlay Opacity > 1.00
 
   #### 2. Apply Shaders:
   
-- *Note 1: If you're using muOS, sharp-shimmerless is applied by default. There's no need to change the shader settings.*
+- *Note 1: Check to see if sharp-shimmerless is applied by default. If so, there's no need to change the shader settings.*
   
 - *Note 2: If sharp-shimmerless isn't available on your device, you can use interpolation > sharp-bilinear instead. Or you can download sharp-shimmerless from [here](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader).*
     
@@ -465,7 +467,7 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 
           Shader Passes > 1
         
-              Shader #0: shimmerless > shaders > sharp-shimmerless.glsl
+              Shader #0: sharp-shimmerless > shaders > sharp-shimmerless.glsl
 
               Shader #0 Filter: Linear
 
@@ -512,6 +514,84 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 - ***This is a dark overlay. You'll want to increase your screen brightness for best results.***
 - This version uses 1playerinsertcoin's grid at 90% opacity. There's also an alt version that I've mucked around with to desaturate the colors a bit.
 - The base version of this overlay at 100% opacity and without border graphics and shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays). A 4:3 version (no more skinny Sonic) is also available.
+
+# [Neo Geo Pocket Color](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/NGPC)
+<img width="1900" height="820" alt="NGPC_ver2" src="https://github.com/user-attachments/assets/d677fd61-512e-4b11-819f-d12c1d73fdaa" />
+
+And yet another 1playerinsertcoin grid. As with the Game Gear overlay, this one doesn't specifically emulate the NGPC screen, but it includes some really nice enhanced LCD subpixel effects. I wasn't going to make a border for this overlay since there's so little unused screen area, but Reddit user KugelFanger kindly approached me with these excellent versions (with and without "COLOR TM") and agreed to let me make them available them here. 
+
+## Configuration
+<details>
+  <summary>Click for installation and settings</summary>
+
+  ### Installation:
+
+  - [Download](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/NGPC) whichever version you prefer (there are two) and save both the .png and .cfg files to your retroarch > overlays folder<br>
+  - *Note: You can make subfolders if desired; I save mine to retroarch > overlays > mugwomp93 > 720x720 to help keep things organized*
+
+  ### Settings:
+
+  #### 1. Apply the Overlay:
+  
+    Quick Menu > On-Screen Overlay
+
+         Display Overlay > ON
+
+         Overlay Preset...
+           > Navigate to retroarch > overlays and select your preferred version
+
+         Overlay Opacity > 1.00
+
+  #### 2. Apply Shaders:
+  
+- *Note 1: Check to see if sharp-shimmerless is applied by default. If so, there's no need to change the shader settings.*
+  
+- *Note 2: If sharp-shimmerless isn't available on your device, you can use interpolation > sharp-bilinear instead. Or you can download sharp-shimmerless from [here](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader).*
+    
+      Quick Menu > Shaders
+
+          Video Shaders ON
+
+          Shader Passes > 1
+        
+              Shader #0: sharp-shimmerless > shaders > sharp-shimmerless.glsl
+
+              Shader #0 Filter: Linear
+
+              Shader #0 Scale: Default
+
+          Apply Changes
+
+          Save Preset > Save Content Directory Preset
+   
+  #### 3. Scaling Settings:
+    
+    Main Menu > Settings > Video > Scaling
+    
+        Integer Scale > OFF
+    
+        Integer Scale Axis > (shouldn't matter)
+    
+        Integer Scale Scaling > (shouldn't matter)
+    
+        Aspect Ratio > Core provided
+    
+        Viewport Anchor Bias X > 0.50
+    
+        Viewport Anchor Bias Y > 0.00 (try 1.00 if the image isn't properly aligned with 0.00)
+    
+        Bilinear Filtering > OFF
+    
+        Crop Overscan > OFF
+
+  #### 4. Save an Override
+
+      Quick Menu > Overrides > Save Content Directory Overrides
+</details>
+
+### Notes:
+- ***This is a dark overlay. You'll want to increase your screen brightness for best results.***
+- The base version of this overlay, centered and without border graphics or shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays).
 
 # [Assorted 1playerinsertcoin Grid Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/1playerinsertcoin%20Assorted%20Overlays)
 As you may have gathered, 1playerinsertcoin has been very generous with their time in creating overlays for a device they don't even own. In addition to the overlays listed above, they've also created versions for GBA, NGPC, and PICO-8. Since I don't know when I'll get around to making borders for these, I've decided to upload all of the 720x720 overlays they've created for me so others can enjoy. These overlays don't have any border decorations, shadows, etc, and, with one exception, are all centered. Please credit 1playerinsertcoin if you use these to create your own versions.<br>
