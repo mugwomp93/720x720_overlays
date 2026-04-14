@@ -11,9 +11,9 @@
 8. [Assorted 1playerinsertcoin Grid Overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays) - GBA, GBC, GG, NGPC, PICO-8
 
 # Notes
-- **IMPORTANT:** The installation and configuration instructions for these overlays will instruct you to save files in the retroarch > overlays and retroarch > shaders directories. Depending on which CFW you're using, you may be able to instead save these files elsewhere and navigate to them in the retroarch menu (or the retroarch folder may be on a Linux partition and not easily accessible). Please refer to the documentation for your specific CFW for the best method to add these overlays.
+- **IMPORTANT:** The installation and configuration instructions for these overlays will instruct you to save files in the retroarch > overlays and retroarch > shaders directories. Depending on which CFW you're using, you may be able to instead save these files elsewhere and navigate to them in the retroarch menu, and/or the retroarch folder may be on a Linux partition and not easily accessible. Please refer to the documentation for your specific CFW for the best method to add these overlays.
 
-- With the exception of the GB overlays, all overlay grids were created by [1playerinsertcoin](https://www.reddit.com/u/1playerinsertcoin/s/yhapRMwOJz). Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids goes to 1playerinsertcoin. Any deficiencies are my own.
+- All of the RGB overlay grids were created by [1playerinsertcoin](https://www.reddit.com/u/1playerinsertcoin/s/yhapRMwOJz). Since they don't have a 720x720 device, I fixed the alignment where necessary and reviewed different versions. As such, credit for all of the good qualities of these grids goes to 1playerinsertcoin. Any deficiencies are my own.
 
 ### Notes regarding sample images:
 - ***Gridlines:***<br>
@@ -329,7 +329,7 @@ These overlays work with a shader preset to produce custom palettes and a subtle
 # [Game Boy Color](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GBC)
 ![GBC_composite_old](https://github.com/user-attachments/assets/c8590cfa-59a3-466b-aeb4-a6faf8c1a503)
 
-1playerinsertcoin was kind enough to create a number of iterations of this overlay grid for testing. I think the final version looks fantastic, which is especially impressive considering they don't have a 720x720 device. I'm not 100% happy with the edge shadow so I may revisit it at some point, but otherwise this is as close to finished as any of these overlays.
+1playerinsertcoin was kind enough to create a number of iterations of this overlay grid for testing. I think the final version looks fantastic, which is especially impressive considering they don't have a 720x720 device.
 
 ## Configuration
 <details>
@@ -431,7 +431,7 @@ These overlays work with a shader preset to produce custom palettes and a subtle
 # [Game Gear](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GG)
 ![GG_composite_old](https://github.com/user-attachments/assets/ddbb9bc0-8be3-476a-9c94-be6a10da9c1f)
 
-Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game Gear screen (it's also not 4:3, so we've already deviated from reality) but it includes some really nice enhanced LCD subpixel effects. Same issue with the edge shadow as for GBC.
+Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game Gear screen (it's also not 4:3, so we've already deviated from reality) but it includes some really nice enhanced LCD subpixel effects.
 
 ## Configuration
 <details>
@@ -516,7 +516,7 @@ Another 1playerinsertcoin grid. This one doesn't specifically emulate the Game G
 - The base version of this overlay at 100% opacity and without border graphics and shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays). A 4:3 version (no more skinny Sonic) is also available.
 
 # [Neo Geo Pocket Color](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/NGPC)
-<img width="1900" height="820" alt="NGPC_ver2" src="https://github.com/user-attachments/assets/6b1efaac-aecc-4696-b91e-84ebfe9c05b8" />
+<img width="1900" height="820" alt="NGPC_ver2" src="https://github.com/user-attachments/assets/c10f4d4c-db65-4948-af55-bf7e30924eda" />
 
 And yet another 1playerinsertcoin grid. As with the Game Gear overlay, this one doesn't specifically emulate the NGPC screen, but it includes some really nice enhanced LCD subpixel effects. I wasn't going to make a border for this overlay since there's so little unused screen area, but Reddit user KugelFanger kindly approached me with these excellent versions (with and without "COLOR TM") and agreed to let me make them available them here. 
 
