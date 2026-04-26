@@ -141,7 +141,7 @@ Not much to say other than I'm pretty pleased with this one. It uses the Special
     
             Custom Aspect Ratio (X Position) > 0
     
-            Custom Aspect Ratio (Y Position) > 61
+            Custom Aspect Ratio (Y Position) > 60
     
             Custom Aspect Ratio (Width) > 640 (4x)
     
