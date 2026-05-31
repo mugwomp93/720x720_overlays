@@ -1,4 +1,5 @@
-**A collection of 720x720 overlays for the RG CubeXX and other devices. Tested on muOS Pixie and Knulli Gladiator II (via Retroarch settings and overrides).**
+**A collection of 720x720 overlays for the RG CubeXX and other devices. Tested on muOS Pixie and Knulli Scarab (via Retroarch settings and overrides).**<br><br>
+*For **Knulli-specific** packages of my overlays (i.e., if you'd prefer to use the built-in Knulli configuration and don't want to mess around with Retroarch), see my new [Knulli repository](https://github.com/mugwomp93/Knulli_Customization).*
 
 # Contents
 1. [Game Boy Advance](https://github.com/mugwomp93/720x720_overlays/tree/main#game-boy-advance)
