@@ -680,9 +680,9 @@ Another 1playerinsertcoin grid. As with the non-integer scale version, this one 
 - The base version of this overlay, centered and without border graphics or shadows is available below in [assorted 1playerinsertcoin grid overlays](https://github.com/mugwomp93/720x720_overlays/tree/main#assorted-1playerinsertcoin-grid-overlays).
 
 # [Consoles](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/Consoles)
-<img width="2380" height="820" alt="720x720_4_3_examples" src="https://github.com/user-attachments/assets/f61bced9-cc54-45a9-abce-561f38969690" />
+<img width="3160" height="820" alt="601148371-f61bced9-cc54-45a9-abce-561f38969690" src="https://github.com/user-attachments/assets/bdb02de9-d0b7-4d76-bbe9-22a8665ef75d" />
 
-A collection of 4:3 aspect ratio overlays for various consoles. So far, it includes overlays for NES, SNES, and Atari 2600. I'll add more as I complete them.
+A collection of 4:3 aspect ratio overlays for various consoles. So far, it includes overlays for NES, SNES, SMS, and Atari 2600. I'll add more as I complete them.
 
 ## Configuration
 <details>
